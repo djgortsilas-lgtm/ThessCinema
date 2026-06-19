@@ -122,7 +122,7 @@ const CORS_PROXIES = [
 // --- Auto-update from GitHub (change these to match your repo) ---
 const GITHUB_USER = 'djgortsilas-lgtm';
 const GITHUB_REPO = 'ThessCinema';
-const GITHUB_DATA_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/server/snapshot.json`;
+const GITHUB_DATA_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/thesscinema/server/snapshot.json`;
 
 function el(tag, attrs, ...children) {
   const e = document.createElement(tag);
