@@ -22,14 +22,7 @@ nav{display:flex;gap:4px;flex:1;flex-wrap:wrap}
 .tab.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 .header-actions{display:flex;align-items:center;gap:10px;margin-left:auto}
 .last-update{font-size:12px;color:var(--text2)}
-#refreshBtn{background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:6px 14px;border-radius:8px;cursor:pointer;font-size:13px;transition:all 0.2s}
-#refreshBtn:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
-#refreshBtn:disabled{opacity:.5;cursor:wait}
-#refreshStatus{font-size:11px;color:#e85d5d;display:none}
-.server-panel{background:var(--surface);border:2px dashed var(--accent);border-radius:var(--radius);padding:20px;margin-bottom:20px;text-align:center}
-.server-panel h3{color:var(--accent);margin-bottom:8px}
-.server-panel code{display:block;background:var(--surface2);padding:10px 14px;border-radius:6px;margin:10px 0;font-size:13px;color:var(--text)}
-.server-panel .note{font-size:13px;color:var(--text2);margin-top:8px}
+
 main{max-width:1400px;margin:0 auto;padding:20px 16px}
 .movies-grid{display:flex;flex-direction:column;gap:12px}
 .movie-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;transition:all 0.2s;box-shadow:var(--shadow)}
@@ -111,8 +104,6 @@ HTML = """<!DOCTYPE html>
 </nav>
 <div class="header-actions">
 <span class="last-update">""" + snapshot_date + """</span>
-<button id="refreshBtn">\u0391\u03bd\u03b1\u03bd\u03ad\u03c9\u03c3\u03b7</button>
-<span id="refreshStatus"></span>
 </div>
 </div>
 </header>
@@ -128,9 +119,8 @@ const CORS_PROXIES = [
   'https://corsproxy.io/?url=',
 ];
 
-// --- GitHub raw (for auto-refresh via GitHub Actions) ---
-// Change these to match your repository:
-const GITHUB_USER = 'YOUR_USERNAME';
+// --- Auto-update from GitHub (change these to match your repo) ---
+const GITHUB_USER = 'djgortsilas-lgtm';
 const GITHUB_REPO = 'ThessCinema';
 const GITHUB_DATA_URL = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/server/snapshot.json`;
 
@@ -346,14 +336,6 @@ function renderCinemasView() {
 
 // ---- Refresh logic ----
 
-function setStatus(msg, isError) {
-  const el = document.getElementById('refreshStatus');
-  el.textContent = msg;
-  el.style.display = 'inline';
-  el.style.color = isError ? '#e94560' : '#4fc3f7';
-  if (!isError) setTimeout(() => { el.style.display = 'none'; }, 4000);
-}
-
 async function tryFetch(url, timeoutMs) {
   const ctrl = new AbortController();
   const id = setTimeout(() => ctrl.abort(), timeoutMs);
@@ -452,73 +434,26 @@ async function fetchShowtimesForMovie(url) {
   return cinemas;
 }
 
-function showServerHelp() {
-  let panel = document.getElementById('serverHelp');
-  if (panel) return;
-  panel = el('div',{id:'serverHelp',className:'server-panel'},
-    el('h3',{},'\u2600\uFE0F \u0391\u03bd\u03b1\u03bd\u03ad\u03c9\u03c3\u03b7 \u03b4\u03b5\u03b4\u03bf\u03bc\u03ad\u03bd\u03c9\u03bd'),
-    el('p',{},'\u0397 \u03b6\u03c9\u03bd\u03c4\u03b1\u03bd\u03ae \u03b1\u03bd\u03b1\u03bd\u03ad\u03c9\u03c3\u03b7 \u03b1\u03c0\u03b1\u03b9\u03c4\u03b5\u03af \u03c4\u03bf Python backend \u03bd\u03b1 \u03c4\u03c1\u03ad\u03c7\u03b5\u03b9. \u039c\u03af\u03b1 \u03b1\u03c0\u03cc \u03c4\u03b9\u03c2 \u03b5\u03be\u03ae\u03c2 \u03b5\u03c0\u03b9\u03bb\u03bf\u03b3\u03ad\u03c2:'),
-    el('div',{style:'display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:12px 0'},
-      el('code',{style:'flex:1;min-width:200px;font-size:13px'},'cd server && python -m uvicorn main:app --host 0.0.0.0 --port 8765'),
-      el('span',{style:'font-size:13px;color:var(--text2);align-self:center'},'\u03ae'),
-      el('code',{style:'font-size:13px'},'double-click start.bat')
-    ),
-    el('p',{className:'note'},'\u03a4\u03b1 \u03c0\u03c1\u03bf\u03b2\u03bf\u03bb\u03ad\u03c2 \u03b1\u03c0\u03cc \u03c4\u03bf \u03b5\u03bd\u03c3\u03c9\u03bc\u03b1\u03c4\u03c9\u03bc\u03ad\u03bd\u03bf \u03c3\u03c4\u03bf\u03b9\u03c7\u03b5\u03af\u03bf (\u03c3\u03ae\u03bc\u03b5\u03c1\u03b1) \u03b5\u03bc\u03c6\u03b1\u03bd\u03af\u03b6\u03bf\u03bd\u03c4\u03b1\u03b9 \u03ba\u03b1\u03bd\u03bf\u03bd\u03b9\u03ba\u03ac.')
-  );
-  document.getElementById('content').before(panel);
-}
 
-async function doRefresh() {
-  const btn = document.getElementById('refreshBtn');
-  const status = document.getElementById('refreshStatus');
-  btn.disabled = true;
-  status.textContent = '\u0391\u03bd\u03b1\u03bd\u03ad\u03c9\u03c3\u03b7...';
-  status.style.display = 'inline';
-  status.style.color = '#4fc3f7';
+
+async function refreshFromGitHub() {
+  if (GITHUB_USER === 'djgortsilas-lgtm') return;
   try {
-    let movies = null;
-    // 1) Python backend
-    try {
-      const txt = await tryFetch('http://localhost:8765/api/rebuild', 120000);
-      const data = JSON.parse(txt);
-      if (data && data.movies && data.movies.length && data.movies[0].showtimes) { movies = data.movies; }
-    } catch(e) {
-      try {
-        const txt = await tryFetch('http://localhost:8765/api/movies?refresh=1', 10000);
-        const data = JSON.parse(txt);
-        if (data && data.movies && data.movies.length && data.movies[0].showtimes) { movies = data.movies; }
-      } catch(e2) { /* backend not available */ }
-    }
-    // 2) GitHub raw (works without server — data updated by GitHub Actions)
-    if (!movies && GITHUB_USER !== 'YOUR_USERNAME') {
-      try {
-        const txt = await tryFetch(GITHUB_DATA_URL, 10000);
-        const data = JSON.parse(txt);
-        if (Array.isArray(data) && data.length && data[0].detail_url) { movies = data; }
-      } catch(e) { /* github not available */ }
-    }
-    if (movies && movies.length > 0) {
+    const r = await fetch(GITHUB_DATA_URL, { signal: AbortSignal.timeout(8000) });
+    if (!r.ok) return;
+    const data = await r.json();
+    if (Array.isArray(data) && data.length && data[0].showtimes) {
       MOVIES_DATA.length = 0;
       SHOWTIMES_CACHE.clear();
-      for (const m of movies) MOVIES_DATA.push(m);
+      for (const m of data) MOVIES_DATA.push(m);
       const now = new Date();
-      const sd = now.getDate().toString().padStart(2,'0')+'/'+
-                 ((now.getMonth()+1).toString().padStart(2,'0'))+'/'+
-                 now.getFullYear()+' '+now.getHours().toString().padStart(2,'0')+':'+
-                 now.getMinutes().toString().padStart(2,'0');
-      document.querySelector('.last-update').textContent = sd;
-      const activeTab = document.querySelector('.tab.active');
-      if (activeTab) activeTab.click();
-      setStatus('\u0391\u03bd\u03b1\u03bd\u03b5\u03ce\u03b8\u03b7\u03ba\u03b5! ('+movies.length+' \u03c4\u03b1\u03b9\u03bd\u03af\u03b5\u03c2)');
-    } else {
-      setStatus('\u0397 \u03b1\u03bd\u03b1\u03bd\u03ad\u03c9\u03c3\u03b7 \u03c7\u03c1\u03b5\u03b9\u03ac\u03b6\u03b5\u03c4\u03b1\u03b9 Python server \u2014 \u03ba\u03ac\u03bd\u03b5 double-click \u03c4\u03bf start.bat \u03ae \u03c4\u03c1\u03b5\u03be\u03b5: cd server && python -m uvicorn main:app --host 0.0.0.0 --port 8765', true);
-      showServerHelp();
+      document.querySelector('.last-update').textContent =
+        now.getDate().toString().padStart(2,'0')+'/'+
+        ((now.getMonth()+1).toString().padStart(2,'0'))+'/'+
+        now.getFullYear()+' '+now.getHours().toString().padStart(2,'0')+':'+
+        now.getMinutes().toString().padStart(2,'0');
     }
-  } catch(e) {
-    setStatus('\u03a3\u03c6\u03ac\u03bb\u03bc\u03b1: '+e.message, true);
-  } finally {
-    btn.disabled = false;
-  }
+  } catch(e) { /* offline or not configured */ }
 }
 
 function init() {
@@ -535,7 +470,7 @@ function init() {
       else content.append(renderCinemasView());
     };
   });
-  document.getElementById('refreshBtn').onclick = doRefresh;
+  refreshFromGitHub();
 }
 init();
 </script>
