@@ -70,7 +70,7 @@
     "title": "Η Πρόσκληση (The Invite)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/prosklisi-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/06/saving-grace-b-jones-120x180.jpg",
-    "imdb": "7,6",
+    "imdb": "7,7",
     "genres": [
       "Δραματική",
       "Κομεντί",
@@ -93,6 +93,14 @@
       {
         "name": "Cine Άλεξ (Θερινός)",
         "url": "https://www.thessalonikiguide.gr/cinemas/cine-alex/"
+      },
+      {
+        "name": "Options Μακεδονία (Πρώην Odeon)",
+        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-makedonia/"
+      },
+      {
+        "name": "Village Cosmos",
+        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
       }
     ],
     "showtimes": [
@@ -225,6 +233,103 @@
                 ],
                 [
                   "20:45"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Options Μακεδονία (Πρώην Odeon)",
+        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-makedonia/",
+        "address": "Τομπάζη 15, Πυλαία, Θεσσαλονίκη",
+        "phone": "Τηλ. 210-6786661",
+        "halls": [
+          {
+            "name": "Αίθουσα 4",
+            "days": [
+              "Πε 2/7",
+              "Πα 3/7",
+              "Σα 4/7",
+              "Κυ 5/7",
+              "Δε 6/7",
+              "Τρ 7/7",
+              "Τε 8/7"
+            ],
+            "showtimes": [
+              [
+                [
+                  "19:40"
+                ],
+                [
+                  "19:40"
+                ],
+                [
+                  "19:40"
+                ],
+                [
+                  "19:40"
+                ],
+                [
+                  "19:40"
+                ],
+                [
+                  "19:40"
+                ],
+                [
+                  "19:40"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Village Cosmos",
+        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
+        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310487810",
+        "halls": [
+          {
+            "name": "Αίθουσα 2",
+            "days": [
+              "Πε 2/7",
+              "Πα 3/7",
+              "Σα 4/7",
+              "Κυ 5/7",
+              "Δε 6/7",
+              "Τρ 7/7",
+              "Τε 8/7"
+            ],
+            "showtimes": [
+              [
+                [
+                  "20:00",
+                  "22:30"
+                ],
+                [
+                  "20:00",
+                  "22:30"
+                ],
+                [
+                  "20:00",
+                  "22:30"
+                ],
+                [
+                  "20:00",
+                  "22:30"
+                ],
+                [
+                  "20:00",
+                  "22:30"
+                ],
+                [
+                  "20:00",
+                  "22:30"
+                ],
+                [
+                  "20:00",
+                  "22:30"
                 ]
               ]
             ]
@@ -576,7 +681,7 @@
     ]
   },
   {
-    "title": "Ο Θάνατος του Ρομπέν των Δασών (The Death of Robin Hood)",
+    "title": "Ο Θάνατος του Robin Hood (The Death of Robin Hood)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/the-death-of-robin-hood-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/06/the-death-of-robin-hood-120x180.jpg",
     "imdb": "6,4",
@@ -1137,7 +1242,7 @@
     "title": "72 Ώρες Προθεσμία (Pressure)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/72-wres-prothesmia-pressure-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/06/72-wres-prothesmia-120x180.jpg",
-    "imdb": "7,4",
+    "imdb": "7,3",
     "genres": [
       "Δραματική",
       "Ιστορική",
@@ -3240,7 +3345,7 @@
     "title": "Scary Movie 6",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/scary-movie-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/05/scary-movie-120x180.jpg",
-    "imdb": "5,3",
+    "imdb": "5,2",
     "genres": [
       "Κωμωδία",
       "Μαύρη Κωμωδία",
@@ -3967,7 +4072,7 @@
     "title": "Ανακόντα (Anaconda)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/anaconda-2025/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2025/12/anakoda-2025-120x180.jpg",
-    "imdb": "6",
+    "imdb": "5,5",
     "genres": [
       "Δράσης",
       "Κωμωδία",
@@ -4309,130 +4414,6 @@
     ]
   },
   {
-    "title": "Η Πρόσκληση (The Invitation)",
-    "detail_url": "https://www.thessalonikiguide.gr/tainia/the-invitation-2022/",
-    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2022/10/prosklhsh-120x180.jpg",
-    "imdb": "5,2",
-    "genres": [
-      "Δραματική",
-      "Τρόμου"
-    ],
-    "year": "2022",
-    "description": "Η Τζέσικα Τόμσον, σκηνοθέτρια του βραβευμένου «The Light of the Moon» (2017), βρίσκεται αυτή τη φορά πίσω από το μεταφυσικό θρίλερ «Η Πρόσκληση», μία ανατρεπτική ταινία τρόμου με πρωταγωνιστές τη...",
-    "cast": "Νάταλι Εμάνουελ,Τόμας Ντόχερτυ,Στέφανι Κορνίλιουσεν,Αλάνα Μπόντεν,Κόρτνι Τέιλορ,Χιου Σκίνερ,Σον ΠέρτουιΣκηνοθεσία :Τζέσικα Μ. ΤόμσονΣενάριο :Μπλερ Μπάτλερ",
-    "director": "Ηθοποιοί:Νάταλι Εμάνουελ,Τόμας Ντόχερτυ,Στέφανι Κορνίλιουσεν,Αλάνα Μπόντεν,Κόρτνι Τέιλορ,Χιου Σκίνερ,Σον ΠέρτουιΤζέσικα Μ. ΤόμσονΣενάριο :Μπλερ Μπάτλερ",
-    "writer": "Ηθοποιοί:Νάταλι Εμάνουελ,Τόμας Ντόχερτυ,Στέφανι Κορνίλιουσεν,Αλάνα Μπόντεν,Κόρτνι Τέιλορ,Χιου Σκίνερ,Σον ΠέρτουιΣκηνοθεσία :Τζέσικα Μ. ΤόμσονΜπλερ Μπάτλερ",
-    "cinemas": [
-      {
-        "name": "Options Μακεδονία (Πρώην Odeon)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-makedonia/"
-      },
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
-      }
-    ],
-    "showtimes": [
-      {
-        "name": "Options Μακεδονία (Πρώην Odeon)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-makedonia/",
-        "address": "Τομπάζη 15, Πυλαία, Θεσσαλονίκη",
-        "phone": "Τηλ. 210-6786661",
-        "halls": [
-          {
-            "name": "Αίθουσα 4",
-            "days": [
-              "Πε 2/7",
-              "Πα 3/7",
-              "Σα 4/7",
-              "Κυ 5/7",
-              "Δε 6/7",
-              "Τρ 7/7",
-              "Τε 8/7"
-            ],
-            "showtimes": [
-              [
-                [
-                  "19:40"
-                ],
-                [
-                  "19:40"
-                ],
-                [
-                  "19:40"
-                ],
-                [
-                  "19:40"
-                ],
-                [
-                  "19:40"
-                ],
-                [
-                  "19:40"
-                ],
-                [
-                  "19:40"
-                ]
-              ]
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
-        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310487810",
-        "halls": [
-          {
-            "name": "Αίθουσα 2",
-            "days": [
-              "Πε 2/7",
-              "Πα 3/7",
-              "Σα 4/7",
-              "Κυ 5/7",
-              "Δε 6/7",
-              "Τρ 7/7",
-              "Τε 8/7"
-            ],
-            "showtimes": [
-              [
-                [
-                  "20:00",
-                  "22:30"
-                ],
-                [
-                  "20:00",
-                  "22:30"
-                ],
-                [
-                  "20:00",
-                  "22:30"
-                ],
-                [
-                  "20:00",
-                  "22:30"
-                ],
-                [
-                  "20:00",
-                  "22:30"
-                ],
-                [
-                  "20:00",
-                  "22:30"
-                ],
-                [
-                  "20:00",
-                  "22:30"
-                ]
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "title": "Καλοκαίρι με τη Μόνικα (Summer with Monica)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/summer-with-monica-1952/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2022/07/Sommaren-med-Monika-120x180.jpg",
@@ -4495,7 +4476,8 @@
     "genres": [
       "Αστυνομική",
       "Δραματική",
-      "Δράσης"
+      "Μαύρη Κωμωδία",
+      "Ψυχολογικό Δράμα"
     ],
     "year": "1993",
     "description": "O Γουίλιαμ (Μάικλ Ντάγκλας) είναι ένας φυσιολογικός άντρας, που βλέπει ξαφνικά τη ζωή του να καταρρέει. Μόλις πληροφορήθηκε πως εξαιτίας περικοπών στην εταιρία κατασκευής όπλων που εργαζόταν, κρίθηκε αναγκαίο να...",
@@ -4516,7 +4498,7 @@
         "phone": "Τηλ. 2310 828642",
         "halls": [
           {
-            "name": "Αίθουσα",
+            "name": "Βραδιές CineDogs",
             "days": [
               "Πε 2/7",
               "Πα 3/7",
@@ -4550,13 +4532,15 @@
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2020/07/sex-lies-120x180.jpg",
     "imdb": "7,2",
     "genres": [
-      "Δραματική"
+      "Δραματική",
+      "Μαύρη Κωμωδία",
+      "Ψυχολογικό Δράμα"
     ],
     "year": "1989",
     "description": "Ο Τζον απατάει την Ανν με την αδερφή της. Η Ανν ανήμπορη να κάνει το παραμικρό κλείνεται στον εαυτό της, μέχρι τη στιγμή που εισβάλλει στην ζωή τους ο Γκράχαμ,...",
-    "cast": "Άντι Μακ Ντάουελ,Τζέιμς Σπέιντερ,Λόρα Σαν Τζιάκομο,Πίτερ ΓκάλαχερΣκηνοθεσία :Στίβεν ΣόντερμπεργκΣενάριο :Στίβεν Σόντερμπεργκ",
-    "director": "Ηθοποιοί:Άντι Μακ Ντάουελ,Τζέιμς Σπέιντερ,Λόρα Σαν Τζιάκομο,Πίτερ ΓκάλαχερΣτίβεν ΣόντερμπεργκΣενάριο :Στίβεν Σόντερμπεργκ",
-    "writer": "Ηθοποιοί:Άντι Μακ Ντάουελ,Τζέιμς Σπέιντερ,Λόρα Σαν Τζιάκομο,Πίτερ ΓκάλαχερΣκηνοθεσία :Στίβεν ΣόντερμπεργκΣτίβεν Σόντερμπεργκ",
+    "cast": "Άντι Μακ Ντάουελ,Τζέιμς Σπέιντερ,Λόρα Σαν Τζιάκομο,Πίτερ Γκάλαχερ,Ρον Βότερ,Αλεξάνδρα Ρουτ,Ντέιβιντ Φόιλ,Στήβεν Μπριλ,Ερλ Τ. ΤέιλορΣκηνοθεσία :Στίβεν ΣόντερμπεργκΣενάριο :Στίβεν Σόντερμπεργκ",
+    "director": "Ηθοποιοί:Άντι Μακ Ντάουελ,Τζέιμς Σπέιντερ,Λόρα Σαν Τζιάκομο,Πίτερ Γκάλαχερ,Ρον Βότερ,Αλεξάνδρα Ρουτ,Ντέιβιντ Φόιλ,Στήβεν Μπριλ,Ερλ Τ. ΤέιλορΣτίβεν ΣόντερμπεργκΣενάριο :Στίβεν Σόντερμπεργκ",
+    "writer": "Ηθοποιοί:Άντι Μακ Ντάουελ,Τζέιμς Σπέιντερ,Λόρα Σαν Τζιάκομο,Πίτερ Γκάλαχερ,Ρον Βότερ,Αλεξάνδρα Ρουτ,Ντέιβιντ Φόιλ,Στήβεν Μπριλ,Ερλ Τ. ΤέιλορΣκηνοθεσία :Στίβεν ΣόντερμπεργκΣτίβεν Σόντερμπεργκ",
     "cinemas": [
       {
         "name": "Απόλλων Θερινός",
@@ -4603,7 +4587,7 @@
     "title": "Αμελί (Amélie)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/amelie/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2020/09/amelie-120x180.jpg",
-    "imdb": "8,3",
+    "imdb": "8,2",
     "genres": [
       "Κομεντί",
       "Ρομαντική"
