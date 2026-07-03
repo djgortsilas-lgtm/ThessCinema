@@ -3801,10 +3801,6 @@
       {
         "name": "Σινέ Πυλαία (Θερινός)",
         "url": "https://www.thessalonikiguide.gr/cinemas/cine-pilaia/"
-      },
-      {
-        "name": "Σινέ Πανόραμα (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/cine-panorama/"
       }
     ],
     "showtimes": [
@@ -3838,45 +3834,6 @@
                 ],
                 [
                   "23:00"
-                ],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Σινέ Πανόραμα (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/cine-panorama/",
-        "address": "1ο χλμ. Οδού Πανοράματος-Θέρμης",
-        "phone": "Τηλ. 2310 346 720",
-        "halls": [
-          {
-            "name": "Αίθουσα",
-            "days": [
-              "Πε 2/7",
-              "Πα 3/7",
-              "Σα 4/7",
-              "Κυ 5/7",
-              "Δε 6/7",
-              "Τρ 7/7",
-              "Τε 8/7"
-            ],
-            "showtimes": [
-              [
-                [
-                  "21:00"
-                ],
-                [
-                  "21:00"
-                ],
-                [
-                  "21:00"
-                ],
-                [
-                  "21:00"
                 ],
                 [],
                 [],
