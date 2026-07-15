@@ -480,8 +480,14 @@ init();
 with open('ThessCinema.html', 'w', encoding='utf-8') as f:
     f.write(HTML)
 
-# Also copy to static/ for the development server
+# Copy to parent directory (root of repo when run from server/)
 import os
+try:
+    with open('../ThessCinema.html', 'w', encoding='utf-8') as f:
+        f.write(HTML)
+except: pass
+
+# Also copy to static/ for the development server
 os.makedirs('static', exist_ok=True)
 with open('static/index.html', 'w', encoding='utf-8') as f:
     f.write(HTML)
