@@ -66,7 +66,8 @@
     "imdb": "",
     "genres": [
       "Δραματική",
-      "Ιστορική"
+      "Ιστορική",
+      "Πολεμική"
     ],
     "year": "2025",
     "description": "1982, Ηνωμένο Βασίλειο. Μια Ιαπωνοβρετανίδα συγγραφέας γράφει βιβλίο εμπνευσμένο από τη μητέρα της, Ετσούκο, και το μεταπολεμικό Ναγκασάκι. Στοιχειωμένη από την αυτοκτονία της κόρης της, η Ετσούκο ανακαλεί το 1952:...",
@@ -239,7 +240,7 @@
     "title": "Spider-Man: Καινούργια Μέρα (Spider-Man: Brand New Day)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/spider-man-kainourgia-mera-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/07/Spider-Man-Brand-New-Day-120x180.jpg",
-    "imdb": "",
+    "imdb": "8,2",
     "genres": [
       "Sci-Fi",
       "Δράσης",
@@ -1145,6 +1146,82 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Σινέ Παράδεισος (Θερινός)",
+        "url": "https://www.thessalonikiguide.gr/cinemas/cine-paradeisos/",
+        "address": "Περιοχή Στρεμπενιώτη, Νεάπολη, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310 631700",
+        "halls": [
+          {
+            "name": "Αίθουσα",
+            "days": [
+              "Πε 6/8",
+              "Πα 7/8",
+              "Σα 8/8",
+              "Κυ 9/8",
+              "Δε 10/8",
+              "Τρ 11/8",
+              "Τε 12/8"
+            ],
+            "showtimes": [
+              [
+                [
+                  "21:15"
+                ],
+                [
+                  "21:15"
+                ],
+                [
+                  "21:15"
+                ],
+                [
+                  "21:15"
+                ],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Σινέ Άλσος (Θερινός)",
+        "url": "https://www.thessalonikiguide.gr/cinemas/cine-alsos/",
+        "address": "Δεντροφυτεία Συκεών",
+        "phone": "Τηλ. 2310200190",
+        "halls": [
+          {
+            "name": "Αίθουσα",
+            "days": [
+              "Πε 6/8",
+              "Πα 7/8",
+              "Σα 8/8",
+              "Κυ 9/8",
+              "Δε 10/8",
+              "Τρ 11/8",
+              "Τε 12/8"
+            ],
+            "showtimes": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [
+                  "21:15"
+                ],
+                [
+                  "21:15"
+                ],
+                [
+                  "21:15"
+                ]
+              ]
+            ]
+          }
+        ]
       }
     ]
   },
@@ -1327,7 +1404,7 @@
     "title": "Βαϊάνα (Moana)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/vaiana-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/06/vaiana-2026-120x180.jpg",
-    "imdb": "5,7",
+    "imdb": "5,8",
     "genres": [
       "Δράσης",
       "Ενηλικίωσης: Coming of Age",
@@ -3318,6 +3395,7 @@
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/07/following-120x180.jpg",
     "imdb": "7,4",
     "genres": [
+      "Αστυνομική",
       "Μυστηρίου"
     ],
     "year": "1998",
@@ -3371,7 +3449,7 @@
     "title": "Ημέρα Αποκάλυψης (Disclosure Day)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/imera-apokalipsis-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/05/disclosure-day-120x180.jpg",
-    "imdb": "6,7",
+    "imdb": "6,5",
     "genres": [
       "Sci-Fi",
       "Δραματική",
@@ -3651,7 +3729,7 @@
     "title": "Η Χιονάτη (Snow White)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/snow-white-2025/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2025/03/xionati-2025-120x180.jpg",
-    "imdb": "1,6",
+    "imdb": "2,2",
     "genres": [
       "Οικογενειακή",
       "Περιπέτεια",
@@ -3990,7 +4068,7 @@
     "title": "Περσόνα (Persona)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/persona/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2020/05/persona-1-120x180.jpg",
-    "imdb": "8,1",
+    "imdb": "8",
     "genres": [
       "Δραματική",
       "Μυστηρίου",
@@ -4047,7 +4125,7 @@
     "title": "Μια Θέση στον Ήλιο (A Place in the Sun)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/a-place-in-the-sun-1951/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2020/07/mia-thesi-ston-hlio-120x180.jpg",
-    "imdb": "7,8",
+    "imdb": "7,7",
     "genres": [
       "Δραματική",
       "Ρομαντική"
@@ -4105,13 +4183,15 @@
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2019/07/8-1963-120x180.jpg",
     "imdb": "8,0",
     "genres": [
-      "Δραματική"
+      "Δραματική",
+      "Μαύρη Κωμωδία",
+      "Ψυχολογικό Δράμα"
     ],
     "year": "1963",
     "description": "Ο Γκουίντο Ανσέλμι, σκηνοθέτης που περνά μια κριτική περίοδο στην προσωπική και καλλιτεχνική ζωή του, βασανίζεται από φαντασιώσεις και έμμονες ιδέες που σχετίζονται με την καθολική του παιδεία, τις σχέσεις...",
-    "cast": "Μαρτσέλο Μαστρογιάνι,Κλαούντια Καρντινάλε,Ανούκ ΕμέΣκηνοθεσία :Φεντερίκο ΦελίνιΣενάριο :Φεντερίκο Φελίνι",
-    "director": "Ηθοποιοί:Μαρτσέλο Μαστρογιάνι,Κλαούντια Καρντινάλε,Ανούκ ΕμέΦεντερίκο ΦελίνιΣενάριο :Φεντερίκο Φελίνι",
-    "writer": "Ηθοποιοί:Μαρτσέλο Μαστρογιάνι,Κλαούντια Καρντινάλε,Ανούκ ΕμέΣκηνοθεσία :Φεντερίκο ΦελίνιΦεντερίκο Φελίνι",
+    "cast": "Μαρτσέλο Μαστρογιάνι,Κλαούντια Καρντινάλε,Ανούκ ΕμέΣκηνοθεσία :Φεντερίκο ΦελίνιΣενάριο :Φεντερίκο Φελίνι,Ενιο Φλαϊάνο,Τούλιο Πινέλι",
+    "director": "Ηθοποιοί:Μαρτσέλο Μαστρογιάνι,Κλαούντια Καρντινάλε,Ανούκ ΕμέΦεντερίκο ΦελίνιΣενάριο :Φεντερίκο Φελίνι,Ενιο Φλαϊάνο,Τούλιο Πινέλι",
+    "writer": "Ηθοποιοί:Μαρτσέλο Μαστρογιάνι,Κλαούντια Καρντινάλε,Ανούκ ΕμέΣκηνοθεσία :Φεντερίκο ΦελίνιΦεντερίκο Φελίνι,Ενιο Φλαϊάνο,Τούλιο Πινέλι",
     "cinemas": [
       {
         "name": "Απόλλων Θερινός",
