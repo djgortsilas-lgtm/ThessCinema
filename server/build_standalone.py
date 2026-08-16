@@ -74,6 +74,24 @@ main{max-width:1400px;margin:0 auto;padding:20px 16px}
 .cinema-day{color:#b87333;font-weight:600;font-size:12px}
 .cinema-day-times{font-size:12px;color:#e85d5d}
 footer{text-align:center;padding:24px;color:var(--text2);font-size:13px;border-top:1px solid var(--border);margin-top:40px}
+.movie-poster{cursor:pointer}
+.movie-poster img:hover{transform:scale(1.04);transition:transform 0.2s}
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:200;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;transition:opacity 0.2s}
+.modal-overlay.open{opacity:1}
+.modal{background:var(--surface);border-radius:var(--radius);max-width:640px;width:100%;max-height:85vh;overflow-y:auto;box-shadow:0 8px 40px rgba(0,0,0,0.3);transform:translateY(12px);transition:transform 0.2s}
+.modal-overlay.open .modal{transform:translateY(0)}
+.modal-header{display:flex;gap:16px;padding:16px;border-bottom:1px solid var(--border)}
+.modal-poster{flex-shrink:0;width:130px}
+.modal-poster img{width:130px;height:auto;border-radius:8px;display:block}
+.modal-title-wrap{flex:1;min-width:0}
+.modal-title{font-size:20px;line-height:1.3;margin:0 0 6px}
+.modal-close{position:sticky;top:8px;float:right;background:var(--surface2);border:1px solid var(--border);border-radius:50%;width:34px;height:34px;cursor:pointer;font-size:16px;color:var(--text);z-index:2}
+.modal-body{padding:16px}
+.modal-desc{font-size:14px;color:var(--text);margin-bottom:12px;white-space:pre-wrap}
+.modal-facts{font-size:13px;color:var(--text2);margin:6px 0}
+.modal-facts b{color:var(--text)}
+.modal-trailer{display:inline-block;background:#ff0000;color:#fff;padding:8px 16px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;margin-top:8px}
+.modal-trailer:hover{background:#d00000;color:#fff;text-decoration:none}
 @media(max-width:768px){
   .header-inner{flex-direction:column;align-items:stretch}
   nav{justify-content:center}
@@ -168,6 +186,50 @@ function renderShowtimes(panel, cinemas) {
   }
 }
 
+function showMovieModal(m) {
+  const existing = document.querySelector('.modal-overlay');
+  if (existing) existing.remove();
+  const overlay = el('div',{className:'modal-overlay'});
+  const closeBtn = el('button',{className:'modal-close','aria-label':'\u039a\u03bb\u03b5\u03af\u03c3\u03b9\u03bc\u03bf'},'\u00d7');
+  const ps = m.poster && !m.poster.includes('data:image') ? m.poster : '';
+  const imdbH = m.imdb ? '<span class="imdb-badge">IMDb '+esc(m.imdb)+'</span>' : '';
+  const ytSearch = 'https://www.youtube.com/results?search_query='+encodeURIComponent(m.title+' trailer');
+  const facts = [];
+  if (m.year) facts.push(el('p',{className:'modal-facts'},el('b',{},'\u0388\u03c4\u03bf\u03c2: '),m.year));
+  if (m.director) facts.push(el('p',{className:'modal-facts'},el('b',{},'\u03a3\u03ba\u03b7\u03bd\u03bf\u03b8\u03b5\u03c3\u03af\u03b1: '),m.director));
+  if (m.writer) facts.push(el('p',{className:'modal-facts'},el('b',{},'\u03a3\u03b5\u03bd\u03ac\u03c1\u03b9\u03bf: '),m.writer));
+  if (m.cast) facts.push(el('p',{className:'modal-facts'},el('b',{},'\u0397\u03b8\u03bf\u03c0\u03bf\u03b9\u03bf\u03af: '),m.cast));
+  const genres = (m.genres||[]).map(g => el('span',{className:'genre-tag'},g));
+  const modal = el('div',{className:'modal'},
+    el('div',{className:'modal-header'},
+      closeBtn,
+      el('div',{className:'modal-poster'}, ps ? el('img',{src:ps,alt:m.title}) : null),
+      el('div',{className:'modal-title-wrap'},
+        el('h2',{className:'modal-title'},m.title),
+        el('div',{className:'movie-meta',innerHTML:imdbH}),
+        el('div',{style:'margin-top:4px'},...genres)
+      )
+    ),
+    el('div',{className:'modal-body'},
+      m.description ? el('p',{className:'modal-desc'},m.description) : null,
+      ...facts,
+      el('a',{className:'modal-trailer',href:ytSearch,target:'_blank',rel:'noopener'},'\u25b6 \u0394\u03b5\u03af\u03c4\u03b5 \u03c4\u03c1\u03b5\u03b9\u03bb\u03ad\u03c1')
+    )
+  );
+  overlay.append(modal);
+  overlay.onclick = (e) => { if (e.target === overlay) close(); };
+  document.body.appendChild(overlay);
+  requestAnimationFrame(() => overlay.classList.add('open'));
+  function close() {
+    overlay.classList.remove('open');
+    setTimeout(() => overlay.remove(), 200);
+  }
+  closeBtn.onclick = close;
+  document.addEventListener('keydown', function escKey(e) {
+    if (e.key === 'Escape') { close(); document.removeEventListener('keydown', escKey); }
+  });
+}
+
 function renderColumnView(data) {
   data = data || MOVIES_DATA;
   const container = el('div',{className:'movies-grid'});
@@ -199,7 +261,7 @@ function renderColumnView(data) {
     };
     const card = el('div',{className:'movie-card'},
       el('div',{className:'movie-card-inner'},
-        el('div',{className:'movie-poster'}, ps ? el('img',{src:ps,alt:m.title,loading:'lazy'}) : el('span',{className:'genre-tag'},'No Poster')),
+        el('div',{className:'movie-poster',onclick:()=>showMovieModal(m),title:m.title}, ps ? el('img',{src:ps,alt:m.title,loading:'lazy'}) : el('span',{className:'genre-tag'},'No Poster')),
         el('div',{className:'movie-info'},
           el('h2',{}, m.title),
           el('div',{className:'movie-meta',innerHTML:imdbH+(m.year?' <span>'+esc(m.year)+'</span>':'')}),
