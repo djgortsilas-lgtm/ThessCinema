@@ -193,7 +193,7 @@ function showMovieModal(m) {
   const closeBtn = el('button',{className:'modal-close','aria-label':'\u039a\u03bb\u03b5\u03af\u03c3\u03b9\u03bc\u03bf'},'\u00d7');
   const ps = m.poster && !m.poster.includes('data:image') ? m.poster : '';
   const imdbH = m.imdb ? '<span class="imdb-badge">IMDb '+esc(m.imdb)+'</span>' : '';
-  const ytSearch = 'https://www.youtube.com/results?search_query='+encodeURIComponent(m.title+' trailer');
+  const trailerUrl = m.trailer || 'https://www.youtube.com/results?search_query='+encodeURIComponent(m.title+' trailer');
   const facts = [];
   if (m.year) facts.push(el('p',{className:'modal-facts'},el('b',{},'\u0388\u03c4\u03bf\u03c2: '),m.year));
   if (m.director) facts.push(el('p',{className:'modal-facts'},el('b',{},'\u03a3\u03ba\u03b7\u03bd\u03bf\u03b8\u03b5\u03c3\u03af\u03b1: '),m.director));
@@ -213,7 +213,7 @@ function showMovieModal(m) {
     el('div',{className:'modal-body'},
       m.description ? el('p',{className:'modal-desc'},m.description) : null,
       ...facts,
-      el('a',{className:'modal-trailer',href:ytSearch,target:'_blank',rel:'noopener'},'\u25b6 \u0394\u03b5\u03af\u03c4\u03b5 \u03c4\u03c1\u03b5\u03b9\u03bb\u03ad\u03c1')
+      el('a',{className:'modal-trailer',href:trailerUrl,target:'_blank',rel:'noopener'},'\u25b6 \u0394\u03b5\u03af\u03c4\u03b5 \u03c4\u03c1\u03ad\u03b9\u03bb\u03b5\u03c1')
     )
   );
   overlay.append(modal);
@@ -499,7 +499,7 @@ async function fetchShowtimesForMovie(url) {
 
 
 async function refreshFromGitHub() {
-  if (GITHUB_USER === 'djgortsilas-lgtm') return;
+  if (!GITHUB_USER || GITHUB_USER.startsWith('YOUR')) return;
   try {
     const r = await fetch(GITHUB_DATA_URL, { signal: AbortSignal.timeout(8000) });
     if (!r.ok) return;

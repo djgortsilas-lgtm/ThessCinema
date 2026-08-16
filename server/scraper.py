@@ -112,9 +112,38 @@ def extract_movies_from_listing(html: str) -> list[dict]:
             "cast": cast,
             "director": director,
             "writer": writer,
+            "trailer": "",
             "cinemas": cinemas,
         })
     return movies
+
+
+def extract_movie_details(html: str) -> dict:
+    soup = BeautifulSoup(html, "lxml")
+    details = {}
+    overview = soup.select_one("h2#perigrafi")
+    if overview:
+        div = overview.find_next_sibling("div")
+        if div:
+            text = div.get_text(strip=True, separator=" ")
+            if text:
+                details["description"] = text
+    trailer_heading = soup.select_one("h2#mov-trailer")
+    if trailer_heading:
+        container = trailer_heading.find_next_sibling("div")
+        if container:
+            src = ""
+            player = container.select_one(".rll-youtube-player")
+            if player:
+                src = player.get("data-src", "")
+            if not src:
+                iframe = container.select_one("iframe")
+                if iframe:
+                    src = iframe.get("src", "")
+            if src:
+                match = re.search(r"(?:v=|/embed/)([A-Za-z0-9_-]{6,20})", src)
+                details["trailer"] = "https://www.youtube.com/watch?v=" + match.group(1) if match else src
+    return details
 
 
 def parse_showtimes(html: str) -> dict:
@@ -201,7 +230,9 @@ async def scrape_movie_showtimes(detail_url: str) -> dict:
     if not detail_url.startswith("http"):
         detail_url = BASE_URL + detail_url
     html = await fetch_html(detail_url)
-    return parse_showtimes(html)
+    result = parse_showtimes(html)
+    result.update(extract_movie_details(html))
+    return result
 
 
 if __name__ == "__main__":

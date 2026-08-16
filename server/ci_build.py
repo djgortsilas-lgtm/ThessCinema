@@ -14,6 +14,10 @@ async def main():
         try:
             st = await scrape_movie_showtimes(m["detail_url"])
             m["showtimes"] = st.get("cinemas", [])
+            if st.get("description"):
+                m["description"] = st["description"]
+            if st.get("trailer"):
+                m["trailer"] = st["trailer"]
         except Exception as e:
             m["showtimes"] = []
         print(f"  [{i}/{len(movies)}] {m['title'][:40]} — {len(m['showtimes'])} cinemas")
