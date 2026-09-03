@@ -83,17 +83,55 @@ def extract_movies_from_listing(html: str) -> list[dict]:
                 if desc_el:
                     description = desc_el.get_text(strip=True)
 
-                cast_texts = collapse_div.find_all(string=re.compile(r"\u0397\u03b8\u03bf\u03c0\u03bf\u03b9\u03bf\u03af"))
-                if cast_texts:
-                    cast = cast_texts[0].find_parent("div").get_text(strip=True).replace("\u0397\u03b8\u03bf\u03c0\u03bf\u03b9\u03bf\u03af:", "").strip()
+                # Cast / director / writer live inside the same div.mb-20 block,
+                # so we must NOT use find_parent("div").get_text() (it returns
+                # all three fields concatenated). Use schema.org microdata
+                # (itemprop=actor/director/author) or fall back to the parent <li>.
+                def _names(selector: str) -> str:
+                    names = []
+                    for el in collapse_div.select(selector):
+                        # inner <span itemprop="name"> holds the clean value
+                        name_el = el.select_one('[itemprop="name"]')
+                        txt = (name_el.get_text(strip=True) if name_el
+                               else el.get_text(strip=True))
+                        if txt:
+                            names.append(txt.strip().strip(","))
+                    # de-dupe while preserving order
+                    seen = set()
+                    uniq = []
+                    for n in names:
+                        if n and n not in seen:
+                            seen.add(n)
+                            uniq.append(n)
+                    return ", ".join(uniq)
 
-                dir_texts = collapse_div.find_all(string=re.compile(r"\u03a3\u03ba\u03b7\u03bd\u03bf\u03b8\u03b5\u03c3\u03af\u03b1"))
-                if dir_texts:
-                    director = dir_texts[0].find_parent("div").get_text(strip=True).replace("\u03a3\u03ba\u03b7\u03bd\u03bf\u03b8\u03b5\u03c3\u03af\u03b1 :", "").strip()
+                cast = _names('[itemprop="actor"]')
+                director = _names('[itemprop="director"]')
+                writer = _names('[itemprop="author"]')
 
-                writer_texts = collapse_div.find_all(string=re.compile(r"\u03a3\u03b5\u03bd\u03ac\u03c1\u03b9\u03bf"))
-                if writer_texts:
-                    writer = writer_texts[0].find_parent("div").get_text(strip=True).replace("\u03a3\u03b5\u03bd\u03ac\u03c1\u03b9\u03bf :", "").strip()
+                # Fallback for pages without microdata: parse the <li> text and
+                # cut at the next known label.
+                def _li_fallback(label_pattern: str) -> str:
+                    texts = collapse_div.find_all(string=re.compile(label_pattern))
+                    if not texts:
+                        return ""
+                    li = texts[0].find_parent("li")
+                    if li is None:
+                        return ""
+                    txt = li.get_text(separator=" ", strip=True)
+                    # remove the label itself
+                    txt = re.sub(r"^.*?" + label_pattern + r"\s*:?\s*", "", txt).strip()
+                    # cut off any trailing label (e.g. cast string contains
+                    # "Σκηνοθεσία :" + "Σενάριο :" after it)
+                    cut = re.split(r"Σκηνοθεσία|Σενάριο|Ηθοποιοί", txt)[0].strip()
+                    return cut.strip(" ,:")
+
+                if not cast:
+                    cast = _li_fallback(r"Ηθοποιοί")
+                if not director:
+                    director = _li_fallback(r"Σκηνοθεσία")
+                if not writer:
+                    writer = _li_fallback(r"Σενάριο")
 
                 for cinema_link in collapse_div.select("div.row a.d-block"):
                     name = cinema_link.get_text(strip=True)
