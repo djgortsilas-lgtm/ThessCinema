@@ -295,7 +295,7 @@
     "title": "Μποϊούνα: Τρόμος στον Αμαζόνιο (Beware Boiúna)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/boiuna-tromos-ston-amazonio-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/boiouna-tromos-ston-amazonio-120x180.jpg",
-    "imdb": "6,1",
+    "imdb": "6",
     "genres": [
       "Δράσης",
       "Περιπέτεια",
@@ -542,9 +542,9 @@
             "showtimes": [
               [
                 [
-                  "01:00",
                   "19:30",
-                  "22:15"
+                  "22:15",
+                  "01:00"
                 ],
                 [
                   "19:30",
@@ -595,7 +595,6 @@
             "showtimes": [
               [
                 [
-                  "00:00",
                   "20:00",
                   "22:00"
                 ],
@@ -994,36 +993,7 @@
         "phone": "Τηλ. 14560 με χρέωση ανά λεπτό 0,49€ (από σταθερό) και 0,99€ (από κινητό).",
         "halls": [
           {
-            "name": "Αίθουσα 2 (Μεταγλ.)",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "17:20"
-                ],
-                [],
-                [
-                  "17:20"
-                ],
-                [
-                  "17:20"
-                ],
-                [],
-                [],
-                []
-              ]
-            ]
-          },
-          {
-            "name": "Αίθουσα 6 (Υποτ.)",
+            "name": "Αίθουσα 6",
             "days": [
               "Πε 29/10",
               "Πα 30/10",
@@ -1428,7 +1398,7 @@
     "title": "The Influencer Project",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/the-influencer-project-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/The-Influencer-Project-120x180.jpg",
-    "imdb": "4,8",
+    "imdb": "4,6",
     "genres": [
       "Τρόμου"
     ],
@@ -1689,7 +1659,7 @@
     "title": "Βασίλισσα στη Θάλασσα (Queen at Sea)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/vasilissa-sti-thalassa-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/vasilissa-sti-thalassa-120x180.jpg",
-    "imdb": "7,7",
+    "imdb": "7,6",
     "genres": [
       "Ψυχολογικό Δράμα"
     ],
@@ -1749,7 +1719,7 @@
     "title": "Clayface",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/clayface-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/clayface-120x180.jpg",
-    "imdb": "7,5",
+    "imdb": "7,6",
     "genres": [
       "Sci-Fi",
       "Τρόμου",
@@ -1946,7 +1916,6 @@
             "showtimes": [
               [
                 [
-                  "21:00",
                   "23:20"
                 ],
                 [],
@@ -2220,7 +2189,7 @@
     "title": "Η Πτώση της Φάλαινας (Whalefall)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/ptosi-tis-falainas-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/ptosi-tis-falainas-120x180.jpg",
-    "imdb": "",
+    "imdb": "6,6",
     "genres": [
       "Δραματική",
       "Περιπέτεια"
@@ -2563,7 +2532,7 @@
     ],
     "year": "2026",
     "description": "Νέα χρονιά. Νέο σχολείο. Νέοι φίλοι. Καλώς ήρθατε στην Ακαδημία Ρότγουντ! Η αποβληθείσα μαθήτρια Μία και ο αρουραίος της, Κουέντιν, φτάνουν στην ακαδημία Ρότγουντ, όπου εκείνη είναι ο μοναδικός άνθρωπος ανάμεσα σε συμμαθητές- τέρατα. Με τη διευθύντρια Βαν Βλαντ να μισεί τους ανθρώπους, πρέπει να συνεργαστεί με τα τέρατα για να ματαιώσει τα σχέδια της ύπουλης διευθύντριας.",
-    "cast": "",
+    "cast": "Με τις φωνές των: Έλενα Δελακούρα (Μία), Πέγκυ Μανωλά (Μαρί), Αρετή Πασχάλη (Κα Μίνστερ/Κράκον/Μούμια), Δημήτρης Παπαδάτος (Κος Μίνστερ/Έντι/αγόρι ζόμπι), Κώστας Κουνέλλας (Πάπρικα), Γιώτα Μηλίτση (Όσκαρ), Φοίβος Ριμένας (Βαν Βλαντ), Αλεξάνδρα Λέρτα (Πηνελόπη), Γιάννης Στεφόπουλος (οδηγός λεωφορείου/γίγαντας), Σοφία Παναηλίδου (Κα Μίλερ/Κα Κουκουβάγια/φωνή ραδιόφωνου), Αμαλία Τσεκούρα (Κα Σκορδοστούμπη), Χίλντα Ηλιοπούλου (Ζιμζάλα)",
     "director": "Βερένα Φελς",
     "writer": "Καταρίνα Ρεσκέ, Ινές Χάφλερ, Τζασμίνα Κάλαϊ, Ντούντζα Μπερνάτζκι",
     "trailer": "https://www.youtube.com/watch?v=QyyjRCRqfmE",
@@ -3554,7 +3523,7 @@
     "title": "Άλλη Μαμά (Other Mommy)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/other-mommy-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/allh-mama-120x180.jpg",
-    "imdb": "5,4",
+    "imdb": "5,3",
     "genres": [
       "Μυστηρίου",
       "Τρόμου"
@@ -3600,7 +3569,6 @@
             "showtimes": [
               [
                 [
-                  "21:30",
                   "23:30"
                 ],
                 [
@@ -3970,7 +3938,7 @@
     "title": "Το Ημερολόγιο της Βέριτι (Verity)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/imerologio-tis-veriti-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/to-imerologio-tis-veriti-120x180.jpg",
-    "imdb": "6,1",
+    "imdb": "6",
     "genres": [
       "Αστυνομική",
       "Δραματική",
@@ -4099,7 +4067,6 @@
             "showtimes": [
               [
                 [
-                  "21:20",
                   "23:50"
                 ],
                 [
@@ -5002,7 +4969,7 @@
     "title": "Κωδικός Τεχεράνη (The Fix)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/kodikos-texerani-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/kodikos-texerani-120x180.jpg",
-    "imdb": "4,7",
+    "imdb": "4,8",
     "genres": [
       "Δράσης"
     ],
@@ -5059,7 +5026,7 @@
     "title": "Resident Evil",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/resident-evil-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/Resident-Evil-2026-120x180.jpg",
-    "imdb": "7,6",
+    "imdb": "7,5",
     "genres": [
       "Sci-Fi",
       "Αγωνίας",
@@ -5144,9 +5111,7 @@
             ],
             "showtimes": [
               [
-                [
-                  "19:30"
-                ],
+                [],
                 [
                   "19:30"
                 ],
@@ -5418,7 +5383,7 @@
     "title": "3 Ώρες Διορία (Runner)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/treis-ores-dioria-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/3-ores-dioria-120x180.jpg",
-    "imdb": "6,7",
+    "imdb": "6,2",
     "genres": [
       "Δράσης",
       "Κωμωδία"
@@ -5499,6 +5464,10 @@
         "url": "https://www.thessalonikiguide.gr/cinemas/dimotiko-cinema-kordelio-evosmos/"
       },
       {
+        "name": "Village Cosmos",
+        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
+      },
+      {
         "name": "Cineplexx One Salonica",
         "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/"
       }
@@ -5529,6 +5498,39 @@
                   "17:00"
                 ],
                 [],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Village Cosmos",
+        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
+        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310487810",
+        "halls": [
+          {
+            "name": "Αίθουσα 4 (Μεταγλ.)",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [],
+                [],
+                [],
+                [
+                  "13:15"
+                ],
                 [],
                 [],
                 []
@@ -5578,7 +5580,7 @@
     "title": "Naza",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/naza-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/naza-documentary-120x180.jpg",
-    "imdb": "8,1",
+    "imdb": "8,3",
     "genres": [
       "Ντοκιμαντέρ",
       "Πολεμική"
@@ -5810,7 +5812,7 @@
     "title": "Πτώση 2 (Fall 2: Deadpoint)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/ptwsi-2-deadpoint-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/ptosi-2-fall-2-120x180.jpg",
-    "imdb": "5,6",
+    "imdb": "5,3",
     "genres": [
       "Δραματική",
       "Περιπέτεια"
@@ -5868,7 +5870,7 @@
     "title": "PAW Patrol: Κουτάβια και Δεινόσαυροι (PAW Patrol: The Dino Movie)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/paw-patrol-koytavia-deinosavroi-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/paw-patrol-koutavia-deinosavroi-120x180.jpg",
-    "imdb": "6,1",
+    "imdb": "6",
     "genres": [
       "Δράσης",
       "Κινούμενα Σχέδια",
@@ -6142,6 +6144,35 @@
         "address": "Τσιμισκη 43, Θεσσαλονίκη",
         "phone": "Τηλ. 14560 με χρέωση ανά λεπτό 0,49€ (από σταθερό) και 0,99€ (από κινητό).",
         "halls": [
+          {
+            "name": "Αίθουσα 2 (Μεταγλ.)",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "17:20"
+                ],
+                [],
+                [
+                  "17:20"
+                ],
+                [
+                  "17:20"
+                ],
+                [],
+                [],
+                []
+              ]
+            ]
+          },
           {
             "name": "Αίθουσα 3 (Μεταγλ.)",
             "days": [
