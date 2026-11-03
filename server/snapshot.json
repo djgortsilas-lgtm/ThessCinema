@@ -309,10 +309,6 @@
     "trailer": "https://www.youtube.com/watch?v=qhBPL_ZR2ZM",
     "cinemas": [
       {
-        "name": "Ελληνίς (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/ellinis/"
-      },
-      {
         "name": "Odeon Πλατεία",
         "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/"
       },
@@ -330,39 +326,6 @@
       }
     ],
     "showtimes": [
-      {
-        "name": "Ελληνίς (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/ellinis/",
-        "address": "Λεωφόρος Στρατού 11, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310280828 - 2310292304",
-        "halls": [
-          {
-            "name": "Αίθουσα",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "20:00"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      },
       {
         "name": "Odeon Πλατεία",
         "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/",
@@ -1733,10 +1696,6 @@
     "trailer": "https://www.youtube.com/watch?v=KKCo8YV1KgA",
     "cinemas": [
       {
-        "name": "Ελληνίς (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/ellinis/"
-      },
-      {
         "name": "Κολοσσαίον",
         "url": "https://www.thessalonikiguide.gr/cinemas/kolossaion/"
       },
@@ -1762,39 +1721,6 @@
       }
     ],
     "showtimes": [
-      {
-        "name": "Ελληνίς (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/ellinis/",
-        "address": "Λεωφόρος Στρατού 11, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310280828 - 2310292304",
-        "halls": [
-          {
-            "name": "Αίθουσα",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "22:00"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      },
       {
         "name": "Κολοσσαίον",
         "url": "https://www.thessalonikiguide.gr/cinemas/kolossaion/",
@@ -2171,100 +2097,6 @@
               [
                 [
                   "19:45"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Η Πτώση της Φάλαινας (Whalefall)",
-    "detail_url": "https://www.thessalonikiguide.gr/tainia/ptosi-tis-falainas-2026/",
-    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/ptosi-tis-falainas-120x180.jpg",
-    "imdb": "6,6",
-    "genres": [
-      "Δραματική",
-      "Περιπέτεια"
-    ],
-    "year": "2026",
-    "description": "Μετά τον θάνατο του πατέρα του (Τζος Μπρόλιν), ο Τζέι Γκάρντινερ (Όστιν Έϊμπραμς) καταδύεται στα ανοιχτά της κεντρικής ακτής της Καλιφόρνιας αναζητώντας τα λείψανά του. Εκεί θα βρεθεί αντιμέτωπος με μια αδιανόητη δοκιμασία όταν μια τεράστια φάλαινα φυσητήρας τον καταπίνει. Παγιδευμένος στο κοιλιά του κήτους και με μόλις μια ώρα οξυγόνου να του απομένει, ο Τζέι συνειδητοποιεί ότι τα σκληρά μαθήματα που του δίδαξε ο πατέρας του, ίσως είναι ο μοναδικός τρόπος για να επιβιώσει και να αποδράσει από την φάλαινα.",
-    "cast": "Ώστιν Έιμπραμς, Τζος Μπρόσλιν, Έμιλι Ρουντ, Τζέιν Λιβάι, Ελίζαμπεθ Σου, Τζον Ορτίζ, Κάμι Μπρούντερ, Σαμ Φρανιχ, Λόρελ Λέιν Μπόουεν, Μαρκ Μελόρο τζ., Νίκολας Γκουλντ, Σαμ Σκολνικ, Γκρέισον Πολ Σόλομιν",
-    "director": "Μπράιαν Ντάφιλντ",
-    "writer": "Μπράιαν Ντάφιλντ, Ντάνιελ Κράους",
-    "trailer": "https://www.youtube.com/watch?v=ZszyXxvHTfs",
-    "cinemas": [
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
-      },
-      {
-        "name": "Cineplexx One Salonica",
-        "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/"
-      }
-    ],
-    "showtimes": [
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
-        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310487810",
-        "halls": [
-          {
-            "name": "Αίθουσα 3",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "13:40"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Cineplexx One Salonica",
-        "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/",
-        "address": "Γιαννιτσών 61 & Κωλέττη 34, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310 515351",
-        "halls": [
-          {
-            "name": "Αίθουσα 6",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "15:00"
                 ],
                 [],
                 [],
@@ -3954,10 +3786,6 @@
     "trailer": "https://www.youtube.com/watch?v=6t_RLB1OQYM",
     "cinemas": [
       {
-        "name": "Σινέ Ναταλί (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/natali/"
-      },
-      {
         "name": "Βακούρα",
         "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/"
       },
@@ -3979,39 +3807,6 @@
       }
     ],
     "showtimes": [
-      {
-        "name": "Σινέ Ναταλί (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/natali/",
-        "address": "Λεωφ. Μεγάλου Αλεξάνδρου 3, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310 829457",
-        "halls": [
-          {
-            "name": "Αίθουσα",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "20:00"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      },
       {
         "name": "Βακούρα",
         "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/",
@@ -4298,63 +4093,6 @@
     ]
   },
   {
-    "title": "BTS World Tour ‘Arirang’ in São Paulo: Live Viewing",
-    "detail_url": "https://www.thessalonikiguide.gr/tainia/bts-world-tour-arirang-in-sao-paulo-live-viewing-2026/",
-    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/BTS-World-Tour-Arirang-in-Sao-Paulo-120x180.jpg",
-    "imdb": "",
-    "genres": [
-      "Ντοκιμαντέρ"
-    ],
-    "year": "2026",
-    "description": "** Με αγγλικούς υπότιτλους. Απολαύστε την παγκόσμια περιοδεία των BTS «Arirang» στους κινηματογράφους όλου του κόσμου, με ζωντανή μετάδοση από το Σάο Πάολο της Βραζιλίας! Αυτή η εντυπωσιακή συναυλία, που αποτελεί και το φινάλε της εντυπωσιακής περιοδείας τους στη Λατινική Αμερική, μεταφέρει την εκρηκτική ενέργεια του κατάμεστου σταδίου, από τη Βραζιλία απευθείας στη μεγάλη οθόνη, αποκλειστικά στα Village Cinemas!* *Σημειώστε ότι οι προβολές σε ορισμένες περιοχές έχουν προγραμματιστεί σε διαφορετικές ώρες, ώστε να προσαρμόζονται στις τοπικές ζώνες ώρας.",
-    "cast": "BTS",
-    "director": "Τζανγκάε Χα",
-    "writer": "",
-    "trailer": "https://www.youtube.com/watch?v=8QWQ4HlzmFk",
-    "cinemas": [
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
-      }
-    ],
-    "showtimes": [
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
-        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310487810",
-        "halls": [
-          {
-            "name": "Αίθουσα 4",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [],
-                [],
-                [
-                  "15:45",
-                  "19:30"
-                ],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "title": "Αλλού ο Δρόμος",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/allou-o-dromos-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/allou-o-dromos-120x180.jpg",
@@ -4580,180 +4318,6 @@
     ]
   },
   {
-    "title": "Hybe Cheering Party",
-    "detail_url": "https://www.thessalonikiguide.gr/tainia/hybe-cheering-party-2026/",
-    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/poster-120x180.jpg",
-    "imdb": "",
-    "genres": [
-      "Ντοκιμαντέρ"
-    ],
-    "year": "2026",
-    "description": "** με αγγλικούς υπότιτλους. Πρόκειται για μια μοναδική k-pop εμπειρία, μια μοναδική στο είδος της διαδραστική προβολή που προσκαλεί τους θαυμαστές να συμμετάσχουν ενεργά: να φωνάξουν συνθήματα, να τραγουδήσουν ακολουθώντας τους στίχους που εμφανίζονται στην οθόνη με εφέ 3D και να κουνήσουν τα επίσημα light sticks τους, συνοδεύοντας τα μουσικά βίντεο των αγαπημένων τους καλλιτεχνών της HYBE: Bts, Seventeen, Tomorrow X Together, Enhypen, Le Sserafim, &team, Boynextdoor, Tws, Illit, Katseye, Aoen, Cortis Και Santos Bravos.",
-    "cast": "Αρ Εμ, Τζιν, Σούγκα, Τζέι-Χοπ, Τζιμίν, Βι, Τζονγκκούκ, Σουμπίν, Γιοντζούν, Μπομγκιού",
-    "director": "Παρκ Σανγκ-γκουν, Κιμ Τζιν-εούι",
-    "writer": "",
-    "trailer": "https://www.youtube.com/watch?v=q0XKUFGn_M4",
-    "cinemas": [
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
-      }
-    ],
-    "showtimes": [
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
-        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310487810",
-        "halls": [
-          {
-            "name": "Αίθουσα 3 3D",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "18:30"
-                ],
-                [
-                  "18:30"
-                ],
-                [
-                  "16:00"
-                ],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Seventeen World Tour (New)",
-    "detail_url": "https://www.thessalonikiguide.gr/tainia/seventeen-world-tour-new-2026/",
-    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/Seventeen-World-Tour-New-2026-120x180.jpg",
-    "imdb": "",
-    "genres": [
-      "Ντοκιμαντέρ"
-    ],
-    "year": "2026",
-    "description": "** με αγγλικούς υπότιτλους. Σηματοδοτώντας μια τολμηρή νέα εποχή πέρα από τη 10η επέτειό τους, οι Seventeen ξεκινούν μια παγκόσμια περιοδεία, ωθούμενοι από τη διάθεσή τους για συνεχή ανανέωση, πιστοί στον τίτλο «NEW_». Με την απαράμιλλη σκηνική τους παρουσία και την εκρηκτική τους ενέργεια, οι Seventeen αποδεικνύουν για άλλη μια φορά τις απεριόριστες δυνατότητές τους. Ζήστε τη φλογερή ατμόσφαιρα της συναυλίας, που ξεχειλίζει από τη μοναδική γοητεία κάθε μέλους, στη μεγάλη οθόνη.",
-    "cast": "Seventeen",
-    "director": "Taehwa Um",
-    "writer": "",
-    "trailer": "",
-    "cinemas": [
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
-      }
-    ],
-    "showtimes": [
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
-        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310487810",
-        "halls": [
-          {
-            "name": "Αίθουσα 8",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "19:00"
-                ],
-                [
-                  "19:00"
-                ],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Ozzy & Black Sabbath: Back to the Beginning",
-    "detail_url": "https://www.thessalonikiguide.gr/tainia/ozzy-black-sabbath-back-to-the-beginning-2026/",
-    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/Ozzy-Black-Sabbath-Back-to-the-Beginning-120x180.jpg",
-    "imdb": "",
-    "genres": [
-      "Ντοκιμαντέρ"
-    ],
-    "year": "2026",
-    "description": "** Με αγγλικούς υπότιτλους. To μουσικό ντοκιμαντέρ Ozzy & Black Sabbath: Back to the Beginning καταγράφει μια στιγμή-ορόσημο στην ιστορία της μουσικής: το ιστορικό «αντίο» του Ozzy Osbourne στους fans του, στο στάδιο Villa Park της ιδιαίτερης πατρίδας του, του Birmingham. Βιντεοσκοπημένο μόλις 17 ημέρες πριν την πρόωρη απώλειά του, η ταινία αναδεικνύει την ιστορική ημέρα με εμφανίσεις από τον ίδιο τον Ozzy, τους Black Sabbath και κάποια από τα μεγαλύτερα και πιο επιδραστικά ονόματα της rock σκηνής, αλλά και προσωπικές σκέψεις των superstar μουσικών που ενέπνευσαν, όπως και behind-the-scenes υλικό από την ίδια την ημέρα. «Η ιδέα για το ” Back to the Beginning ” γεννήθηκε όταν ρώτησα τον Ozzy τι θα τον έκανε πραγματικά ευτυχισμένο», λέει η Sharon Osbourne, σύζυγος και μάνατζερ του Ozzy Osbourne, η οποία είχε την εποπτεία αυτής της θρυλικής εκδήλωσης. «Κι εκείνος απάντησε ότι το μόνο που θα τον ευτυχούσε ήταν να μπορέσει να εμφανιστεί ξανά και να αποχαιρετήσει τους θαυμαστές του. Αυτό ήταν το μόνο που ήθελε να κάνει. Ήθελε να πει αντίο και να τους ευχαριστήσει». Πρόκειται για ένα ιστορικό και συγκινητικό αποχαιρετισμό στον Ozzy και το συγκρότημα που άλλαξε τη μουσική για πάντα!",
-    "cast": "Black Sabbath, Guns N' Roses, Metallica, Ozzy Osbourne, Sammy Hagar, Slayer",
-    "director": "Τιμ Βαν Σομερεν, Μπεν Γουέινράιτ-Πιρς",
-    "writer": "",
-    "trailer": "https://www.youtube.com/watch?v=v4Ct1P6cVF4",
-    "cinemas": [
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
-      }
-    ],
-    "showtimes": [
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
-        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310487810",
-        "halls": [
-          {
-            "name": "Αίθουσα 1",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [],
-                [],
-                [
-                  "19:00"
-                ],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "title": "Ο Tad και το Μαγικό Λυχνάρι (Tad and the Magic Lamp)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/tad-kai-to-magiko-lyxnari-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/tad-kai-to-magiko-lyxnari-120x180.jpg",
@@ -4966,63 +4530,6 @@
     ]
   },
   {
-    "title": "Κωδικός Τεχεράνη (The Fix)",
-    "detail_url": "https://www.thessalonikiguide.gr/tainia/kodikos-texerani-2026/",
-    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/kodikos-texerani-120x180.jpg",
-    "imdb": "4,8",
-    "genres": [
-      "Δράσης"
-    ],
-    "year": "2026",
-    "description": "Ύστερα από μια αποτυχημένη αποστολή, ο Τάκερ, πρώην πράκτορας της CIA, οδηγεί μια ομάδα απογοητευμένων πρώην κατασκόπων στην αναζήτηση εκατομμυρίων δολαρίων σε μετρητά, που χάθηκαν κατά την κατάληψη της αμερικανικής πρεσβείας στην Τεχεράνη το 1979. Ακολουθώντας μια πληροφορία από τον Λάρι – τον παλιό του μέντορα και άνθρωπο που τον στρατολόγησε – ο Τάκερ ξεκινά μια παράτολμη επιχείρηση στην καρδιά του Ιράν, που μπορεί να αλλάξει για πάντα τη ζωή του και της ομάδας του. Καθώς προσπαθούν να επιβιώσουν μέσα σε ένα επικίνδυνο παιχνίδι εξαπάτησης, προδοσίας και απρόβλεπτων συμμαχιών, ο κλοιός γύρω τους στενεύει και η αποστολή γίνεται ολοένα και πιο επικίνδυνη.",
-    "cast": "Λίαμ Νήσον, Ζάκαρι Λιβάι, Κουίνσι Αϊζάια, Τζέικ τσόι, Έλναζ Νορούζι, Γουές Τσατμαν, Αουγκούστο Αγκιλιέρα, Ναβίντ Νέγκαχμπαν, Λάρα Γουλφ, Τίτους Βέλινερ, Όλιβερ Τριβένα, Κ. Τζ. Μπέικερ",
-    "director": "Γκάι Μος",
-    "writer": "Γκάι Μος, Μαρκ Μπατσι, Ρον Χάτκινσον",
-    "trailer": "https://www.youtube.com/watch?v=aduxqursD6M",
-    "cinemas": [
-      {
-        "name": "Odeon Πλατεία",
-        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/"
-      }
-    ],
-    "showtimes": [
-      {
-        "name": "Odeon Πλατεία",
-        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/",
-        "address": "Τσιμισκη 43, Θεσσαλονίκη",
-        "phone": "Τηλ. 14560 με χρέωση ανά λεπτό 0,49€ (από σταθερό) και 0,99€ (από κινητό).",
-        "halls": [
-          {
-            "name": "Αίθουσα 8",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "20:20",
-                  "23:10"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "title": "Resident Evil",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/resident-evil-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/Resident-Evil-2026-120x180.jpg",
@@ -5042,16 +4549,8 @@
     "trailer": "https://www.youtube.com/watch?v=J_pTN4R5Ooo",
     "cinemas": [
       {
-        "name": "Σινέ Ναταλί (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/natali/"
-      },
-      {
         "name": "Odeon Πλατεία",
         "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/"
-      },
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
       },
       {
         "name": "Cineplexx One Salonica",
@@ -5059,39 +4558,6 @@
       }
     ],
     "showtimes": [
-      {
-        "name": "Σινέ Ναταλί (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/natali/",
-        "address": "Λεωφ. Μεγάλου Αλεξάνδρου 3, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310 829457",
-        "halls": [
-          {
-            "name": "Αίθουσα",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "22:15"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      },
       {
         "name": "Odeon Πλατεία",
         "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/",
@@ -5130,64 +4596,6 @@
                 [
                   "19:30"
                 ]
-              ]
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
-        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310487810",
-        "halls": [
-          {
-            "name": "Αίθουσα 4",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "23:30"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          },
-          {
-            "name": "Αίθουσα 8",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "13:50"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
               ]
             ]
           }
@@ -5298,88 +4706,6 @@
     ]
   },
   {
-    "title": "Κόκορας",
-    "detail_url": "https://www.thessalonikiguide.gr/tainia/kokoras-2025/",
-    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/kokoras-120x180.jpg",
-    "imdb": "",
-    "genres": [
-      "Ελληνική Ταινία",
-      "Κωμωδία"
-    ],
-    "year": "2025",
-    "description": "Αυτό το καλοκαίρι είναι το πιο καθοριστικό για την ζωή του Αργύρη, ενός θυρωρού στο Δήμο Αθηναίων. Η είδηση ότι ο γιος του κληρώθηκε να φοιτήσει σε ένα από τα καλύτερα ιδιωτικά σχολεία της χώρας, έρχεται να ταράξει την έτσι κι αλλιώς δύσκολη σχέση με την σύζυγό του Πόπη, επίσης υπάλληλο του Δήμου. Παρόλο που το να φοιτήσει εκεί το παιδί τους, είναι όνειρο απατηλό για τα οικονομικά τους, ο Αργύρης αποφασίζει ότι δεν έχει δικαίωμα να γίνει τροχοπέδη στη μοίρα του παιδιού του, που είναι σαφώς φτιαγμένο για μεγάλα πράγματα! Με όχημα το χιούμορ και τον – στα όρια της σαρδόνιας ειρωνείας – σαρκασμό, το κυνήγι του «ελληνικού ονείρου», καταλήγει σε μια δίνη κωμικοτραγικών συγκρούσεων, που φέρνουν τον Αργύρη μπροστά στην πιο πικρή ανατροπή: Ίσως οι ψευδαισθήσεις να ήταν ό,τι καλύτερο είχε ποτέ.",
-    "cast": "Κόρα Καρβούνη, Κωνσταντίνος Μουταφτσής, Νίκος Κασάπης, Ελένη Κοκκίδου, Γιάννης Σαρακατσάνης, Νίκος Δαφνής, Ελένη Δαφνή, Δημήτρης Καταλειφός, Γιούλικα Σκαφιδά, Γιάννης Δρακόπουλος",
-    "director": "Τάσος Γερακίνης",
-    "writer": "Τάσος Γερακίνης, Κατερίνα Παπαναστασάτου",
-    "trailer": "https://www.youtube.com/watch?v=U2sTrGpgFGI",
-    "cinemas": [
-      {
-        "name": "Odeon Πλατεία",
-        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/"
-      }
-    ],
-    "showtimes": [
-      {
-        "name": "Odeon Πλατεία",
-        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/",
-        "address": "Τσιμισκη 43, Θεσσαλονίκη",
-        "phone": "Τηλ. 14560 με χρέωση ανά λεπτό 0,49€ (από σταθερό) και 0,99€ (από κινητό).",
-        "halls": [
-          {
-            "name": "Αίθουσα 4",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "19:20"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          },
-          {
-            "name": "Αίθουσα 8",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "18:10"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "title": "3 Ώρες Διορία (Runner)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/treis-ores-dioria-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/3-ores-dioria-120x180.jpg",
@@ -5464,10 +4790,6 @@
         "url": "https://www.thessalonikiguide.gr/cinemas/dimotiko-cinema-kordelio-evosmos/"
       },
       {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
-      },
-      {
         "name": "Cineplexx One Salonica",
         "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/"
       }
@@ -5498,39 +4820,6 @@
                   "17:00"
                 ],
                 [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
-        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310487810",
-        "halls": [
-          {
-            "name": "Αίθουσα 4 (Μεταγλ.)",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [],
-                [],
-                [],
-                [
-                  "13:15"
-                ],
                 [],
                 [],
                 []
@@ -5809,64 +5098,6 @@
     ]
   },
   {
-    "title": "Πτώση 2 (Fall 2: Deadpoint)",
-    "detail_url": "https://www.thessalonikiguide.gr/tainia/ptwsi-2-deadpoint-2026/",
-    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/ptosi-2-fall-2-120x180.jpg",
-    "imdb": "5,3",
-    "genres": [
-      "Δραματική",
-      "Περιπέτεια"
-    ],
-    "year": "2026",
-    "description": "Συντετριμμένη από τον θάνατο της αδελφής της, Χάντερ, η Τζαξ έρχεται σε επαφή με τη Λους, τη θαρραλέα φίλη της Χάντερ. Προσπαθώντας να επουλώσουν τις πληγές τους, δοκιμάζουν τις δυνάμεις τους στο Όρος Κουάν της Ταϊλάνδης, εκεί όπου το απρόβλεπτο έδαφος, οι ακραίες συνθήκες και η έλλειψη οποιουδήποτε ασφαλούς καταφυγίου μετατρέπουν την επιβίωση σε μια μάχη χωρίς περιθώρια λάθους. Μέσα από σκηνές που προκαλούν ίλιγγο, σκοτεινές αλήθειες και σκληρές ανατροπές, η Τζαξ πρέπει να αντιμετωπίσει τους βαθύτερους φόβους της, παλεύοντας για την επιβίωση και τη λύτρωση.",
-    "cast": "Βιρτζίνια Γκάρντνερ, Τομ Μπρίτνεϊ, Γκρέις Καρολίν Κιουρέϊ, Χάριετ Σλάτερ, Αρσίμα Τόμας, Άνταμ Ρόουζ, Τζόρνταν Κόουλμαν, Έϊναρ Χαραλντσον, Αλεξάντρα Μπάρτλετ, Λόντον Νουόβο, Έβι Μαν",
-    "director": "Μάικλ Σπίεριγκ, Πήτερ Σπίεριγκ",
-    "writer": "Τζόναθαν Φρανκ, Σκοτ Μαν",
-    "trailer": "https://www.youtube.com/watch?v=zaC55qbzvfs",
-    "cinemas": [
-      {
-        "name": "Odeon Πλατεία",
-        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/"
-      }
-    ],
-    "showtimes": [
-      {
-        "name": "Odeon Πλατεία",
-        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/",
-        "address": "Τσιμισκη 43, Θεσσαλονίκη",
-        "phone": "Τηλ. 14560 με χρέωση ανά λεπτό 0,49€ (από σταθερό) και 0,99€ (από κινητό).",
-        "halls": [
-          {
-            "name": "Αίθουσα 7",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "18:20",
-                  "20:30"
-                ],
-                [],
-                [],
-                [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "title": "PAW Patrol: Κουτάβια και Δεινόσαυροι (PAW Patrol: The Dino Movie)",
     "detail_url": "https://www.thessalonikiguide.gr/tainia/paw-patrol-koytavia-deinosavroi-2026/",
     "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/09/paw-patrol-koutavia-deinosavroi-120x180.jpg",
@@ -5895,10 +5126,6 @@
       {
         "name": "Δημ. Κιν. Κορδελιού - Εύοσμου",
         "url": "https://www.thessalonikiguide.gr/cinemas/dimotiko-cinema-kordelio-evosmos/"
-      },
-      {
-        "name": "Cineplexx One Salonica",
-        "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/"
       }
     ],
     "showtimes": [
@@ -5960,41 +5187,6 @@
                 [],
                 [],
                 [],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Cineplexx One Salonica",
-        "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/",
-        "address": "Γιαννιτσών 61 & Κωλέττη 34, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310 515351",
-        "halls": [
-          {
-            "name": "Αίθουσα 7 (Μεταγλ.)",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [],
-                [],
-                [
-                  "16:30"
-                ],
-                [
-                  "16:30"
-                ],
                 [],
                 [],
                 []
@@ -6094,10 +5286,6 @@
       {
         "name": "Village Μακεδονία Mall (Πρώην Options)",
         "url": "https://www.thessalonikiguide.gr/cinemas/odeon-makedonia/"
-      },
-      {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
       },
       {
         "name": "Cineplexx One Salonica",
@@ -6288,41 +5476,6 @@
         ]
       },
       {
-        "name": "Village Cosmos",
-        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
-        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310487810",
-        "halls": [
-          {
-            "name": "Αίθουσα 3 (Μεταγλ.)",
-            "days": [
-              "Πε 29/10",
-              "Πα 30/10",
-              "Σα 31/10",
-              "Κυ 1/11",
-              "Δε 2/11",
-              "Τρ 3/11",
-              "Τε 4/11"
-            ],
-            "showtimes": [
-              [
-                [
-                  "16:10"
-                ],
-                [],
-                [],
-                [
-                  "15:30"
-                ],
-                [],
-                [],
-                []
-              ]
-            ]
-          }
-        ]
-      },
-      {
         "name": "Cineplexx One Salonica",
         "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/",
         "address": "Γιαννιτσών 61 & Κωλέττη 34, Θεσσαλονίκη",
@@ -6374,32 +5527,125 @@
     ]
   },
   {
-    "title": "Για Μια Νύχτα Μόνο (One Night Only)",
-    "detail_url": "https://www.thessalonikiguide.gr/tainia/gia-mia-nyxta-mono-2026/",
-    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/08/gia-mia-nyxta-mono-120x180.jpg",
+    "title": "Insidious: Έξω από το Απότερο (Insidious: Out of the Further)",
+    "detail_url": "https://www.thessalonikiguide.gr/tainia/insidious-exo-apo-to-apotero-2026/",
+    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/08/Insidious-2026-exo-apo-to-apotero-120x180.jpg",
     "imdb": "6",
     "genres": [
-      "Κομεντί",
-      "Ρομαντική"
+      "Μυστηρίου",
+      "Τρόμου",
+      "Ψυχολογικό Δράμα"
     ],
     "year": "2026",
-    "description": "Τι θα γινόταν αν μια έκρυθμη νύχτα ήταν τελικά το καλύτερο πράγμα που σου συνέβη ποτέ; Φέτος το καλοκαίρι, ο Γουίλ Γκλακ, σεναριογράφος και σκηνοθέτης των Λατρεύω να σε Μισώ και Εύκολη Κατά Λάθος, τιμά το είδος της ρομαντικής κομεντί με μια σύγχρονη, πνευματώδη και τρυφερή πρωτότυπη ταινία για το κυνήγι του έρωτα κατά τη διάρκεια της λιγότερο ρομαντικής νύχτας του χρόνου. Η υποψήφια για Όσκαρ Μόνικα Μπαρμπάρο και ο υποψήφιος για BAFTA Κάλουμ Τέρνερ πρωταγωνιστούν ως Άλι και Όουεν, δύο άγνωστοι που ψάχνουν την αγάπη και διασταυρώνονται τυχαία σε μια ελαφρώς παραλλαγμένη και φανταστική εκδοχή της Νέας Υόρκης, τη μοναδική νύχτα του χρόνου όπου οι αδέσμευτοι επιτρέπεται να κάνουν σεξ. Ο πληγωμένος Όουεν και η ρομαντική Άλι είναι οι ίσως μοναδικές μοναχικές ψυχές στην πόλη που αναζητούν κάτι περισσότερο από ένα περιστασιακό ειδύλλιο. Από τη στιγμή που γνωρίζονται νιώθουν μια έντονη σπίθα, όμως μια σειρά από ατοπήματα και τυχαία περιστατικά τους βάζουν σε μπελάδες που τους κρατούν χώρια. Σε ένα κυνηγητό μέσα στην πόλη, που μία του απομακρύνει και μία τους φέρνει κοντά, θα συνειδητοποιήσουν ότι αυτό που αναζητούν βρίσκεται ακριβώς δίπλα τους.",
-    "cast": "Μόνικα Μπάρμπαρο, Κάλουμ Τέρνερ, Γκρέις Νταμγουεϊ, Φρανκ Πάντο, Τιγιόν Τσάμπερς, Ντάνκαν Τζούι, Ζουλέιμα Γκεβάρα, Κέιζο Κάχι, Μάγια Χοκ, Σεμπάστιαν Κουίν, Γουίλιαμ Φρανκ",
-    "director": "Γουίλ Γκλακ",
-    "writer": "Τράβις Μπράουν",
-    "trailer": "https://www.youtube.com/watch?v=zfPul_a3E48",
+    "description": "Στην ταινία «Insidious: Έξω από το Απώτερο», η Τζέμα (Αμέλια Ηβ), μία νεαρή μητέρα που μεγαλώνει μόνη την κόρη της στο πατρικό της σπίτι, ανακαλύπτει ότι μπορεί να ταξιδέψει στο Απώτερο, το καθαρτήριο των χαμένων ψυχών, στην καρδιά του σύμπαντος του Insidious. Όταν κάτι δαιμονικό την κυνηγάει, η Τζέμα διαπιστώνει ότι έχει μία ικανότητα που αλλάζει τα πάντα: δεν επισκέπτεται απλώς το Απώτερο, αλλά μπορεί να φέρει ό,τι ζει μέσα σε αυτό στον πραγματικό κόσμο. Μόλις οι δαίμονες αντιλαμβάνονται τη δύναμή της, ο κόσμος μας γίνεται το παιχνίδι τους.",
+    "cast": "Λιν Σέι, Αμέλια Ηβ, Μέισι Ρίτσαρντσον Σέλερς, Σαμ Σπριούελ, Τζόζεφ Λόπεζ, Μπράντον Περέα, Λόρα Γκόρντον, Άιλαντ Όστιν, Ντέιβιντ Μόργκαν, Τσάρλι Πέντον, Τζούλι Νίχιλ",
+    "director": "Τζέικομπ Τσέις",
+    "writer": "Ντέιβιντ Λέσλι Τζόνσον ΜακΓκόλντρικ, Λι Γουάνελ, Τζέικομπ Τσέις",
+    "trailer": "https://www.youtube.com/watch?v=M0G0emw_KD4",
     "cinemas": [
       {
-        "name": "Σινέ Ναταλί (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/natali/"
+        "name": "Cineplexx One Salonica",
+        "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/"
       }
     ],
     "showtimes": [
       {
-        "name": "Σινέ Ναταλί (Θερινός)",
-        "url": "https://www.thessalonikiguide.gr/cinemas/natali/",
-        "address": "Λεωφ. Μεγάλου Αλεξάνδρου 3, Θεσσαλονίκη",
-        "phone": "Τηλ. 2310 829457",
+        "name": "Cineplexx One Salonica",
+        "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/",
+        "address": "Γιαννιτσών 61 & Κωλέττη 34, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310 515351",
+        "halls": [
+          {
+            "name": "Αίθουσα 4",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [],
+                [
+                  "22:50"
+                ],
+                [
+                  "22:50"
+                ],
+                [
+                  "22:50"
+                ],
+                [
+                  "22:50"
+                ],
+                [
+                  "22:50"
+                ],
+                [
+                  "22:50"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "Αίθουσα 6",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "23:15"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Φιόρδ (Fjord)",
+    "detail_url": "https://www.thessalonikiguide.gr/tainia/fjord-2026/",
+    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/08/fiord-120x180.jpg",
+    "imdb": "7,6",
+    "genres": [
+      "Δικαστική / Νομική",
+      "Δραματική"
+    ],
+    "year": "2026",
+    "description": "Οι Γκεοργκίου, ένα βαθιά θρησκευόμενο ρουμανο-νορβηγικό ζευγάρι, εγκαθίστανται σε ένα χωριό στα νησιά Φιόρδ. Εκεί η οικογένεια έρχεται κοντά με τους γείτονές τους και τα παιδιά των δύο οικογενειών δένονται, παρά τις διαφορές στον τρόπο που έχουν μεγαλώσει. Όταν η έφηβη κόρη των Γκεοργκίου εμφανίζεται στο σχολείο με μελανιές στο σώμα της, η κοινότητα αρχίζει να αναρωτιέται αν αυτές σχετίζονται με την παραδοσιακή αγωγή που λαμβάνουν τα παιδιά της οικογένειας από τους γονείς τους. Για τον Cristian Mungiu, πρόκειται για τον δεύτερο Χρυσό Φοίνικα της καριέρας του, δεκαεννέα χρόνια μετά τη βράβευσή του για το «4 Μήνες, 3 Εβδομάδες και 2 μέρες» το 2007. *Χρυσός Φοίνικας στο 79ο Φεστιβάλ Καννών *Βραβείο FIPRESCI *Βραβείο της Οικουμενικής Επιτροπής *Prix François Chalais *Prix de la Citoyenneté Με τους υποψήφιους για Όσκαρ® Renate Reinsve & Sebastian Stan.",
+    "cast": "Ρενάτε Ρέινσεβ, Σεμπαστιαν Σταν, Άνα Μπόντεα, Λίζα Λόβεν Κόνγκσλι, Θορμπγιορν Χαρ, Έρικ Χιβγιου",
+    "director": "Κριστιάν Μουντζίου",
+    "writer": "Κριστιάν Μουντζίου",
+    "trailer": "https://www.youtube.com/watch?v=yfyk__oA-Bs",
+    "cinemas": [
+      {
+        "name": "Μακεδονικόν",
+        "url": "https://www.thessalonikiguide.gr/cinemas/makedonikon/"
+      }
+    ],
+    "showtimes": [
+      {
+        "name": "Μακεδονικόν",
+        "url": "https://www.thessalonikiguide.gr/cinemas/makedonikon/",
+        "address": "Φιλικής Εταιρείας 44, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310 261727",
         "halls": [
           {
             "name": "Αίθουσα",
@@ -6415,9 +5661,755 @@
             "showtimes": [
               [
                 [
-                  "18:00"
+                  "15:30"
                 ],
                 [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Η Σκιά του Πατέρα μου (My Father’s Shadow)",
+    "detail_url": "https://www.thessalonikiguide.gr/tainia/my-fathers-shadow-2025/",
+    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/10/my-fathers-shadow-120x180.jpg",
+    "imdb": "7,3",
+    "genres": [
+      "Δραματική"
+    ],
+    "year": "2025",
+    "description": "Eνας πατέρας που απουσιάζει για καιρό από την οικογένειά του παίρνει τα δυο του παιδιά και ταξιδεύουν αυθημερόν από το χωριό στο πολύβουο Λάγος, προκειμένου να διεκδικήσει ένα μισθό που του οφείλουν. Καθώς οι τρεις τους εξερευνούν μια ανήσυχη μητρόπολη γεμάτη αντιφάσεις, στο παρασκήνιο κοχλάζει η πολιτική ένταση που οδήγησε στις επεισοδιακές εκλογές και το στρατιωτικό πραξικόπημα του 1993 στη Νιγηρία.",
+    "cast": "Σόπε Ντιρίσου, Τσιμπουίκε Μάρβελους Εγκμπο, Γκόντγουιν Έγκμπο, Εφον Γουίνι, Ολαροτίμι Φακούνλε",
+    "director": "Ακινόλα Ντέιβις",
+    "writer": "Γουέιλ Ντέιβις, Ακινόλα Ντέιβις",
+    "trailer": "https://www.youtube.com/watch?v=DWermLDoLTE",
+    "cinemas": [
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/"
+      }
+    ],
+    "showtimes": [
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/",
+        "address": "Ιωάννου Μιχαήλ 8, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310233665, 2310233669",
+        "halls": [
+          {
+            "name": "Αίθουσα 2",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "14:15"
+                ],
+                [
+                  "19:00"
+                ],
+                [
+                  "20:30"
+                ],
+                [
+                  "20:00"
+                ],
+                [
+                  "20:00"
+                ],
+                [
+                  "18:15"
+                ],
+                []
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Spider-Man: Καινούργια Μέρα (Spider-Man: Brand New Day)",
+    "detail_url": "https://www.thessalonikiguide.gr/tainia/spider-man-kainourgia-mera-2026/",
+    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/07/Spider-Man-Brand-New-Day-120x180.jpg",
+    "imdb": "7,9",
+    "genres": [
+      "Sci-Fi",
+      "Δράσης",
+      "Περιπέτεια",
+      "Σούπερ Ήρωες",
+      "Φαντασίας"
+    ],
+    "year": "2026",
+    "description": "Έχουν περάσει τέσσερα χρόνια από τα γεγονότα της ταινίας «No Way Home» και ο Peter είναι πλέον ένας ενήλικας που ζει εντελώς μόνος, έχοντας εθελοντικά εξαφανιστεί από τη ζωή και τις αναμνήσεις των ανθρώπων που αγαπά. Καταπολεμώντας το έγκλημα σε μια Νέα Υόρκη που δεν γνωρίζει πλέον το όνομά του, έχει αφιερωθεί εξ ολοκλήρου στην προστασία της πόλης του — ως Spider-Man πλήρους απασχόλησης — αλλά καθώς οι απαιτήσεις προς αυτόν μεγαλώνουν, η πίεση πυροδοτεί μια εκπληκτική φυσική εξέλιξη που απειλεί την ύπαρξή του, την ίδια στιγμή που ένα παράξενο νέο μοτίβο εγκλημάτων δημιουργεί μία από τις πιο ισχυρές απειλές που έχει αντιμετωπίσει ποτέ. Η ταινία Spider-Man: Καινούργια Μέρα (Spider-Man: Brand New Day) είναι μία Ακόμη ταινία βασισμένη στον χαρακτήρα Spider-Man των Marvel Comics.",
+    "cast": "Τομ Χόλαντ, Ζεντάγια, Σάντι Σινκ, Τζον Μπέρνθαλ, Τζέικομπ Μπάνταλον, Τρέιμελ Τιλμαν, Μαρκ Ράφαλο, Μάικλ Μάντο, Ζάρα Κάαν, Ίαν Τσανς, Μπίλι Κέμενς, Βίβιαν Κιν, Ζαμπρίνα Γκεβάρα, Λίζα Κόλον Ζάιας",
+    "director": "Ντάστιν Ντάνιελ Κρέτον",
+    "writer": "Κρις ΜακΚίνα, Έρικ Σόμερς, Σταν Λη",
+    "trailer": "https://www.youtube.com/watch?v=56M50B8OddA",
+    "cinemas": [
+      {
+        "name": "Δημ. Κιν. Κορδελιού - Εύοσμου",
+        "url": "https://www.thessalonikiguide.gr/cinemas/dimotiko-cinema-kordelio-evosmos/"
+      }
+    ],
+    "showtimes": [
+      {
+        "name": "Δημ. Κιν. Κορδελιού - Εύοσμου",
+        "url": "https://www.thessalonikiguide.gr/cinemas/dimotiko-cinema-kordelio-evosmos/",
+        "address": "Μεγάλου Αλεξάνδρου 57, Εύοσμος",
+        "phone": "Τηλ. 2310 202 067, 2310 762 400",
+        "halls": [
+          {
+            "name": "Αίθουσα",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [],
+                [],
+                [
+                  "21:00"
+                ],
+                [],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Στην Καρδιά του Κτήνους (Heart of the Beast)",
+    "detail_url": "https://www.thessalonikiguide.gr/tainia/stin-kardia-toy-ktinous-2026/",
+    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/07/stin-kardia-toy-ktinous-120x180.jpg",
+    "imdb": "7,2",
+    "genres": [
+      "Δραματική",
+      "Δράσης",
+      "Περιπέτεια"
+    ],
+    "year": "2026",
+    "description": "Μετά από μια τραγική αεροπορική συντριβή, ο αξιωματικός των Ειδικών Δυνάμεων Τζέιμς Μπελμόν (Μπραντ Πιτ) και ο σκύλος μάχης του, Οντίν, βρίσκονται εγκαταλελειμμένοι στα βάθη της άγριας φύσης της Αλάσκας. Μαζί, αναγκάζονται να δώσουν μια σκληρή μάχη επιβίωσης ενάντια στα στοιχεία της φύσης. Από τον καταξιωμένο σκηνοθέτη Ντέιβιντ Άγιερ, η ταινία «Στην Καρδιά του Κτήνους» είναι μια γεμάτη αγωνία περιπέτεια που εξερευνά τον αδιάσπαστο δεσμό μεταξύ ενός άνδρα και του καλύτερου φίλου του, καθώς αντιμετωπίζουν τη μεγαλύτερη μάχη της ζωής τους.",
+    "cast": "Μπραντ Πιτ, Τζ. Κ. Σίμονς, Ανα Λαμπ",
+    "director": "Ντέιβιντ Άγιερ",
+    "writer": "Κάμερον Αλεξάντερ",
+    "trailer": "https://www.youtube.com/watch?v=sTvDtX12MHY",
+    "cinemas": [
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/"
+      },
+      {
+        "name": "Village Μακεδονία Mall (Πρώην Options)",
+        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-makedonia/"
+      },
+      {
+        "name": "Village Cosmos",
+        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/"
+      }
+    ],
+    "showtimes": [
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/",
+        "address": "Ιωάννου Μιχαήλ 8, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310233665, 2310233669",
+        "halls": [
+          {
+            "name": "Αίθουσα 2",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "16:00"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Village Μακεδονία Mall (Πρώην Options)",
+        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-makedonia/",
+        "address": "Τομπάζη 15, Πυλαία, Θεσσαλονίκη",
+        "phone": "Τηλ. 210 270 4800",
+        "halls": [
+          {
+            "name": "Αίθουσα 2",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "22:30"
+                ],
+                [
+                  "21:10"
+                ],
+                [
+                  "21:10"
+                ],
+                [
+                  "21:10"
+                ],
+                [
+                  "21:10"
+                ],
+                [
+                  "21:10"
+                ],
+                [
+                  "21:10"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "Αίθουσα 4",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "18:40"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Village Cosmos",
+        "url": "https://www.thessalonikiguide.gr/cinemas/village-cosmos/",
+        "address": "Mediterranean Cosmos, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310487810",
+        "halls": [
+          {
+            "name": "Αίθουσα 3",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "20:10"
+                ],
+                [
+                  "20:10"
+                ],
+                [
+                  "13:40",
+                  "17:50",
+                  "20:10"
+                ],
+                [
+                  "13:10",
+                  "17:50",
+                  "20:10"
+                ],
+                [
+                  "17:50",
+                  "20:10"
+                ],
+                [
+                  "17:50",
+                  "20:10"
+                ],
+                [
+                  "17:50",
+                  "20:10"
+                ]
+              ]
+            ]
+          },
+          {
+            "name": "Αίθουσα 4",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [],
+                [],
+                [],
+                [
+                  "15:45"
+                ],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Η Πρόσκληση (The Invite)",
+    "detail_url": "https://www.thessalonikiguide.gr/tainia/prosklisi-2026/",
+    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/06/saving-grace-b-jones-120x180.jpg",
+    "imdb": "7,4",
+    "genres": [
+      "Δραματική",
+      "Κομεντί",
+      "Ρομαντική"
+    ],
+    "year": "2026",
+    "description": "Η Πρόσκληση είναι μια σύγχρονη κωμωδία σχέσεων που εκτυλίσσεται στη διάρκεια ενός δείπνου ανάμεσα σε δύο πολύ διαφορετικά ζευγάρια (Ολίβια Γουάιλντ, Σεθ Ρόγκεν, Πενέλοπε Κρουζ, Έντουαρντ Νόρτον). Μέσα σε ένα μόνο βράδυ, οι συζητήσεις γύρω από τον γάμο, την επιθυμία και την προσωπική ελευθερία φέρνουν στην επιφάνεια όσα οι τέσσερις χαρακτήρες απέφευγαν μέχρι τότε να παραδεχτούν. Ο γάμος του Τζο και της Άντζελα περνά κρίση. Όταν προσκαλούν τους αινιγματικούς γείτονες του πάνω ορόφου σε δείπνο, η βραδιά παίρνει απρόβλεπτη τροπή. Θα ξαναβρούν τη σπίθα τους ή θα ανάψουν το σπίρτο που θα τα κάψει όλα; Η Άντζελα (Ολίβια Γουάιλντ) αποφασίζει να καλέσει στο σπίτι το ζευγάρι του πάνω ορόφου — τον Χοκ (Έντουαρντ Νόροτν) και την Πίνα (Πενέλοπε Κρουζ) —  την ίδια στιγμή που ο Τζο (Σεθ Ρόγκεν) είναι εξαντλημένος, εκνευρισμένος, και κυρίως… απροετοίμαστος. Με την κόρη τους εκτός σπιτιού, ένα “αθώο” δείπνο γίνεται πεδίο εξομολογήσεων και ανοιχτής συζήτησης για το σεξ, την οικειότητα, την ελευθερία και τα όρια, καθώς οι δύο επισκέπτες δεν έχουν κανένα πρόβλημα να μιλήσουν χωρίς φίλτρα. Και κάπως έτσι, αυτό που ξεκινά ως κοινωνική υποχρέωση, μετατρέπεται σε μια βραδιά που κανείς τους δεν θα ξεχάσει εύκολα.",
+    "cast": "Σεθ Ρόγκεν, Ολίβια Γουάιλντ, Πενέλοπε Κρουζ, Έντουαρντ Νόρτον, Μελ Πάουελ, Σκιπ Χόουλαντ, Ρέιτσελ Θάροου, Μάριο Βαλντέζ",
+    "director": "Ολίβια Γουάιλντ",
+    "writer": "Τσεσκ Γκάι, Γουίλ Μακ Κόρμακ, Ρασίντα Τζόουνς",
+    "trailer": "https://www.youtube.com/watch?v=d45PVnirbe0",
+    "cinemas": [
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/"
+      }
+    ],
+    "showtimes": [
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/",
+        "address": "Ιωάννου Μιχαήλ 8, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310233665, 2310233669",
+        "halls": [
+          {
+            "name": "Αίθουσα 2",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [],
+                [],
+                [],
+                [
+                  "12:00"
+                ],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Οδύσσεια (The Odyssey)",
+    "detail_url": "https://www.thessalonikiguide.gr/tainia/the-odyssey-2026/",
+    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/06/odysseia-2026-120x180.jpg",
+    "imdb": "8,4",
+    "genres": [
+      "Δραματική",
+      "Επική Περιπέτεια",
+      "Περιπέτεια",
+      "Ρομαντική",
+      "Φαντασίας"
+    ],
+    "year": "2026",
+    "description": "Η νέα ταινία του Κρίστοφερ Νόλαν, Οδύσσεια, είναι μία μυθική επική περιπέτεια με γυρίσματα σε όλο τον κόσμο και προσαρμογή του ομότιτλου επικού ποιήματος του Ομήρου. Στην ταινία Οδύσσεια πρωταγωνιστεί ο Ματ Ντέιμον ως ο Οδυσσέας, ο Αρχαίος Έλληνας βασιλιάς της Ιθάκης και η ιστορία έχει να κάνει με την επιστροφή του στην πατρίδα του μετά από τον Τρωικό Πόλεμο για να ξανασμίξει με τη γυναίκα του, Πηνελόπη (Αν Χάθαγουεϊ). Το υπόλοιπο βασικό καστ συμπληρώνουν οι Τομ Χόλλαντ (Τηλέμαχος),  Ζεντάγια (Θεά Αθηνά), Λουπίτα Νιόνγκο (Ωραία Ελένη – Κλυταιμνήστρα), Ρόμπερτ Πάτινσον (Αντίνοος) και Σαρλίζ Θερόν (Καλυψώ). Η Οδύσσεια ακολουθεί τον Οδυσσέα, τον θρυλικό Έλληνα βασιλιά της Ιθάκης, στο επικίνδυνο επικό ταξίδι προς την πατρίδα του, την Ιθάκη μετά από τον Τρωικό Πόλεμο, όπου συναντά τον Κύκλωπα Πολύφημο, τις Σειρήνες και την μάγισσα θεά Κίρκη, ως και την επανένωσή του με τη γυναίκα του, Πηνελόπη και τον γιο του Τηλέμαχο. Τα γυρίσματα της ταινίας Οδύσσεια του 2026, ξεκίνησαν τον Φεβρουάριο του 2025, στο Μαρόκο, στην Ιταλία, στην Ελλάδα, Ηνωμένο Βασίλειο, Μάλτα, Σκωτία, Ισλανδία, Σαχάρα και οι τελευταίες σκηνές πραγματοποιήθηκαν στο Λος Άντζελες. Με υπολογισμένο κόστος παραγωγής τα $250 εκατομμύρια, θα είναι η πιο ακριβή ταινία του Νόλαν. Τα γυρίσματα διήρκεσαν 91 ημέρες, από τον Φεβρουάριο έως τον Αύγουστο του 2025, και ολοκληρώθηκαν εννέα ημέρες νωρίτερα από το χρονοδιάγραμμα. Τα γυρίσματα σε εξωτερικούς χώρους πραγματοποιήθηκαν κυρίως σε έξι χώρες: το Μαρόκο, την Ελλάδα, την Ιταλία, την Ισλανδία, τη Σκωτία και τις Ηνωμένες Πολιτείες. Η «Οδύσσεια» έγινε η πρώτη ταινία μεγάλου μήκους που γυρίστηκε εξ ολοκλήρου με κινηματογραφικές κάμερες IMAX, χρησιμοποιώντας κυρίως μια νέα, ελαφρύτερη και πιο αθόρυβη έκδοση που ο Νόλαν είχε αναπτύξει ειδικά για την παραγωγή. Η επιλογή της Κενυάτισσας ηθοποιού Λουπίτα Νιόνγκο για τον ρόλο της Ωραίας Ελένης —που θεωρείται η ομορφότερη γυναίκα στον κόσμο— δέχτηκε ιδιαίτερη κριτική από συντηρητικούς σχολιαστές.",
+    "cast": "Ματ Ντέιμον, Τομ Χόλαντ, Αν Χάθαγουεϊ, Ρόμπερτ Πάτινσον, Λουπίτα Νιόνγκο, Ζεντάγια, Σαρλίζ Θερόν, Τζον Μπέρνθαλ, Έλιοτ Πέιτζ, Ράιαν Χερστ, Τζον Στιούαρτ, Λόγκαν Μάρσαλ Γκριν, Μία Γκοθ, Τζον Λεγκουιζάμο, Τζέιμς Ρεμαρ, Σαμάνθα Μόρτον, Μπένι Σαφντι",
+    "director": "Κρίστοφερ Νόλαν",
+    "writer": "Κρίστοφερ Νόλαν, βασισμένο στο Ομηρικό Έπος Οδύσσεια",
+    "trailer": "https://www.youtube.com/watch?v=YJw4t5gpMB8",
+    "cinemas": [
+      {
+        "name": "Δημ. Κιν. Κορδελιού - Εύοσμου",
+        "url": "https://www.thessalonikiguide.gr/cinemas/dimotiko-cinema-kordelio-evosmos/"
+      },
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/"
+      },
+      {
+        "name": "Odeon Πλατεία",
+        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/"
+      },
+      {
+        "name": "Cineplexx One Salonica",
+        "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/"
+      }
+    ],
+    "showtimes": [
+      {
+        "name": "Δημ. Κιν. Κορδελιού - Εύοσμου",
+        "url": "https://www.thessalonikiguide.gr/cinemas/dimotiko-cinema-kordelio-evosmos/",
+        "address": "Μεγάλου Αλεξάνδρου 57, Εύοσμος",
+        "phone": "Τηλ. 2310 202 067, 2310 762 400",
+        "halls": [
+          {
+            "name": "Αίθουσα",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "21:00"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/",
+        "address": "Ιωάννου Μιχαήλ 8, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310233665, 2310233669",
+        "halls": [
+          {
+            "name": "Αίθουσα 1",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "15:00"
+                ],
+                [],
+                [],
+                [
+                  "15:00"
+                ],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Odeon Πλατεία",
+        "url": "https://www.thessalonikiguide.gr/cinemas/odeon-plateia/",
+        "address": "Τσιμισκη 43, Θεσσαλονίκη",
+        "phone": "Τηλ. 14560 με χρέωση ανά λεπτό 0,49€ (από σταθερό) και 0,99€ (από κινητό).",
+        "halls": [
+          {
+            "name": "Αίθουσα 5",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [],
+                [
+                  "20:00"
+                ],
+                [
+                  "20:00"
+                ],
+                [
+                  "20:00"
+                ],
+                [
+                  "20:00"
+                ],
+                [
+                  "20:00"
+                ],
+                [
+                  "20:00"
+                ]
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cineplexx One Salonica",
+        "url": "https://www.thessalonikiguide.gr/cinemas/one-salonica/",
+        "address": "Γιαννιτσών 61 & Κωλέττη 34, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310 515351",
+        "halls": [
+          {
+            "name": "Αίθουσα 1 IMAX",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "22:30"
+                ],
+                [
+                  "21:30"
+                ],
+                [
+                  "21:30"
+                ],
+                [
+                  "21:30"
+                ],
+                [
+                  "21:30"
+                ],
+                [
+                  "21:30"
+                ],
+                [
+                  "21:30"
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Η Μεγάλη Σφαγή των Β΄ ΚΑΠΗ Αλίμου",
+    "detail_url": "https://www.thessalonikiguide.gr/tainia/megali-sfagi-b-kapi-alimou-2025/",
+    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2026/06/megali-sfagi-b-kapi-alimou-120x180.jpg",
+    "imdb": "",
+    "genres": [
+      "Δραματική",
+      "Ελληνική Ταινία",
+      "Κωμωδία"
+    ],
+    "year": "2025",
+    "description": "Ένα αντισυμβατικό συνεργείο ντοκιμαντέρ, αποφασισμένο να βρει απαντήσεις για ένα ανεπίλυτο δράμα, θα επιχειρήσει να αποκαλύψει την αλήθεια πίσω από τη φονική έκρηξη που συγκλόνισε τα Β’ ΚΑΠΗ Αλίμου πριν από πέντε χρόνια. Η επιμονή τους θα φέρει στο φως ιστορίες ανθρώπινου τραύματος, απώλειας και αντοχής, μέσα από το πρίσμα ανάμεικτων στοιχείων μαύρης κωμωδίας και συγκινητικού δράματος. Η ταινία αποτελεί πρωτοβουλία της δημοτικής αρχής του Αλίμου, αποτυπώνοντας ένα στοργικό πορτρέτο της κοινωνίας του, αλλά και μια αντιπροσωπευτική εικόνα της περιοχής. Γυρισμένη αποκλειστικά σε κλειστούς και ανοιχτούς χώρους του Δήμου, αποτυπώνει την ήρεμη ομορφιά της αθηναϊκής ριβιέρας και διερευνά κοινωνικά θέματα που αφορούν την τρίτη ηλικία, όπως η απομόνωση, το τραύμα και τα στερεότυπα. Στην ταινία πρωταγωνιστούν μέλη των ΚΑΠΗ, ερασιτέχνες ηθοποιοί από το εργαστήρι ηθοποιίας του Δήμου Αλίμου, μαθητές σχολείων, και ηλικιωμένοι δημότες, φέρνοντας αυθεντικότητα και συναίσθημα στους ρόλους τους με την καθοδήγηση του σκηνοθέτη. Η πληρότητα του κοινωνικού δείγματος του καστ, που συμπεριλαμβάνει σε ένα μικρό κάμεο, ακόμα και τον δήμαρχο Αλίμου, πλαισιώνεται από επαγγελματίες ηθοποιούς, και έχει ως αποτέλεσμα, ένα ανεπανάληπτα αυθεντικό καθρέφτισμα της κοινωνίας.",
+    "cast": "Λυδία Μπαγεώργου, Νίκος Δαμουλής, Άρης Κρούσκος, Έλλη Ξείπα, Όλγα Θυμαρά, Δέσποινα Δημητριάδου, Μελπώ Παπαδοπούλου, Μάρθα Ρούτσου",
+    "director": "Αθανάσιος Τόμμυ Σκλάβος",
+    "writer": "Αθανάσιος Τόμμυ Σκλάβος",
+    "trailer": "https://www.youtube.com/watch?v=y07dxeGUpi4",
+    "cinemas": [
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/"
+      },
+      {
+        "name": "Απόλλων Θερινός",
+        "url": "https://www.thessalonikiguide.gr/cinemas/apollon/"
+      }
+    ],
+    "showtimes": [
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/",
+        "address": "Ιωάννου Μιχαήλ 8, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310233665, 2310233669",
+        "halls": [
+          {
+            "name": "Αίθουσα 2",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [
+                  "20:00"
+                ],
+                []
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Απόλλων Θερινός",
+        "url": "https://www.thessalonikiguide.gr/cinemas/apollon/",
+        "address": "Σαρανταπόρου 4, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310 828642",
+        "halls": [
+          {
+            "name": "Αίθουσα",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [
+                  "20:30"
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Seven",
+    "detail_url": "https://www.thessalonikiguide.gr/tainia/seven-1995/",
+    "poster": "https://www.thessalonikiguide.gr/wp-content/uploads/2025/01/Seven-120x180.jpg",
+    "imdb": "8,6",
+    "genres": [
+      "Αστυνομική",
+      "Δραματική",
+      "Μυστηρίου",
+      "Ψυχολογικό Δράμα"
+    ],
+    "year": "1995",
+    "description": "Λαιμαργία, Απληστία, Οκνηρία, Ζήλεια, Οργή, Φιλαυτία, Λαγνεία. Τα 7 θανάσιμα αμαρτήματα. Από αυτά αντλεί έμπνευση ο θρησκόληπτος serial killer Τζον Ντο. Τους τελετουργικούς φόνους που διαπράττει, τους ερευνά ο βετεράνος αστυνομικός Γουίλιαμ Σόμερσετ (Μόργκαν Φρήμαν), ο οποίος θα συνταξιοδοτηθεί μόλις ολοκληρωθεί η έρευνα και ο νεαρός αντικαταστάτης του Ντέιβιντ Μιλς (Μπραντ Πιτ), ο οποίος έρχεται με ορμή και σιγουριά ότι θα διαπρέψει. Αυτό που κρύβει όμως η ζοφερή και μονίμως βροχερή Νέα Υόρκη θα είναι και για τους δύο, το πιο δυσάρεστο γεγονός της ζωής τους. Η ταινία Seven, θεωρείται και ψηφίστηκε ως η 8η πιο τρομακτική ταινία στα χρονικά του κινηματογράφου , παρά το γεγονός ότι κανένας φόνος δεν διαπράττεται μπροστά στα μάτια του θεατή. Ο μόνος φόνος που φαίνεται είναι αυτός του φινάλε. Τιμώντας τον τίτλο της ταινίας Seven (7): Τα κτίρια στην πρώτη σκηνή έχουν αρίθμηση από 7. Η παράδοση του μακάβριου πακέτου προγραμματίστηκε στις 7:00. Οι σφαίρες του τελευταίου φόνου είναι 6. Η ταινία Seven ήταν υποψήφια για Όσκαρ Καλύτερου Μοντάζ. Συνολικά οι εισπράξεις ξεπέρασαν τα 327 εκατομμύρια δολάρια έναντι του προϋπολογισμού παραγωγής που ήταν 33 εκατομμύρια δολάρια. Τον ρόλο του Σόμερσετ απέρριψαν ο Ρόμπερτ Ντυβάλ, Τζιν Χάκμαν και ο Αλ Πατσίνο, ο οποίος γύρισε τελικά το City Hall. Ο Ντένζελ Ουάσιγκτον και ο Συλβέστερ Σταλόνε απέρριψαν τον ρόλο του Μιλς ενώ η Κριστίνα Απλγκέιτ απέρριψε το ρόλο της Τρέισι. Ο Βαλ Κίλμερ και ο Μάικλ Στάιπ ήταν υποψήφιοι για το ρόλο του Ντο. Τα γυρίσματα toy Seven ολοκληρώθηκαν σε 55 ημέρες και η τελευταία σκηνή έμελλε να γίνει θέμα αντιπαράθεσης ανάμεσα στο στούντιο παραγωγής και τον σκηνοθέτη . Δίπλα στον Φίντσερ στάθηκε και ο Μπραντ Πιτ επιμένοντας ότι θα παραιτηθεί αν αλλάξουν το τέλος της ταινίας. Κάνοντας μια υποχώρηση προς το στούντιο ο Φίντσερ πρόσθεσε το απόφθεγμα του Σόμερεσετ από τον Χέμινγουέϊ για να κλείσει την ταινία. Το ατύχημα κατά τη διάρκεια της καταδίωξης του Ντο από τον Μιλς, έστειλε τον Μπραντ Πιτ στο χειρουργείο, αλλά ο σκηνοθέτης το κράτησε και το συμπεριέλαβε στο σενάριο. Ο Κέβιν Σπέισι επέμενε να παραληφθεί το όνομά του από τους τίτλους αρχής ώστε να ξαφνιαστεί το κοινό με την ταυτότητα του δολοφόνου. Για τον ίδιο λόγο δεν πήρε μέρος στη προώθηση της ταινίας, δεν έδωσε συνεντεύξεις ούτε έκανε δημόσιες εμφανίσεις.",
+    "cast": "Μόργκαν Φρίμαν, Κέβιν Σπέισι, Μπραντ Πιτ, Γκουίνεθ Πάλτροου, Άντριου Κέβιν Γουόκερ, Ντάνιελ Ζάτσαπα, Τζον Κασίνι, Μπομπ Μακ, Πήτερ Κρόμπι, Ρεγκ Ε. Κάθι, Ρ. Λη Έρμεϊ, Τζωρτζ Κρίστυ, Έντρε Χαλ, Χόθορν Τζέιμς, Μπομπ Κόλινς, Γουίλιαμ Ντέιβιντσον, Ρίτσαρντ Ράουντρι, Τζίμι Ντέιλ Χάρτσελ",
+    "director": "Ντέιβιντ Φίντσερ",
+    "writer": "Άντριου Κέβιν Γουόκερ",
+    "trailer": "https://www.youtube.com/watch?v=znmZoVkCjpI",
+    "cinemas": [
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/"
+      }
+    ],
+    "showtimes": [
+      {
+        "name": "Βακούρα",
+        "url": "https://www.thessalonikiguide.gr/cinemas/vakoura/",
+        "address": "Ιωάννου Μιχαήλ 8, Θεσσαλονίκη",
+        "phone": "Τηλ. 2310233665, 2310233669",
+        "halls": [
+          {
+            "name": "Αίθουσα 1",
+            "days": [
+              "Πε 29/10",
+              "Πα 30/10",
+              "Σα 31/10",
+              "Κυ 1/11",
+              "Δε 2/11",
+              "Τρ 3/11",
+              "Τε 4/11"
+            ],
+            "showtimes": [
+              [
+                [],
+                [
+                  "20:00"
+                ],
                 [],
                 [],
                 [],
