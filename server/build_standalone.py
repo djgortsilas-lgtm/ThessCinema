@@ -514,22 +514,30 @@ async function refreshFromGitHub() {
         ((now.getMonth()+1).toString().padStart(2,'0'))+'/'+
         now.getFullYear()+' '+now.getHours().toString().padStart(2,'0')+':'+
         now.getMinutes().toString().padStart(2,'0');
+      // Re-render the visible view so the fresh data actually shows up
+      renderView();
     }
   } catch(e) { /* offline or not configured */ }
 }
 
-function init() {
+let currentView = 'column';
+
+function renderView() {
   const content = document.getElementById('content');
-  content.append(renderColumnView());
+  content.innerHTML = '';
+  if (currentView === 'column') content.append(renderColumnView());
+  else if (currentView === 'timeline') content.append(renderTimelineView());
+  else content.append(renderCinemasView());
+}
+
+function init() {
+  renderView();
   document.querySelectorAll('.tab').forEach(tab => {
     tab.onclick = () => {
       document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
       tab.classList.add('active');
-      content.innerHTML = '';
-      const v = tab.dataset.view;
-      if (v === 'column') content.append(renderColumnView());
-      else if (v === 'timeline') content.append(renderTimelineView());
-      else content.append(renderCinemasView());
+      currentView = tab.dataset.view;
+      renderView();
     };
   });
   refreshFromGitHub();

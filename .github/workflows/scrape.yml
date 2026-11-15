@@ -7,6 +7,12 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
 
 jobs:
   scrape:
@@ -37,3 +43,30 @@ jobs:
           git add ThessCinema.html
           git diff --staged --quiet || git commit -m "auto: refresh cinema data $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+
+  deploy-pages:
+    needs: scrape
+    # Deploy fresh data to Pages from the same run. This is needed because
+    # pushes made with GITHUB_TOKEN do not trigger the deploy-pages.yml
+    # "on: push" workflow (GitHub limitation).
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: thesscinema
+
+      - name: Prepare site
+        run: |
+          mkdir -p _site
+          cp ThessCinema.html _site/index.html
+          cp server/snapshot.json _site/snapshot.json
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

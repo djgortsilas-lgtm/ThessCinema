@@ -278,7 +278,7 @@ if __name__ == "__main__":
         movies = await scrape_all_movies(max_pages=1)
         print(f"Found {len(movies)} movies")
         for m in movies[:2]:
-            print(f"  {m['title']} - {', '.join(m['cinemas'][:3]) if m['cinemas'] else 'no cinemas'}")
+            print(f"  {m['title']} - {', '.join(c['name'] for c in m['cinemas'][:3]) if m['cinemas'] else 'no cinemas'}")
             if m['detail_url']:
                 showtimes = await scrape_movie_showtimes(m['detail_url'])
                 print(f"    Showtimes: {len(showtimes.get('cinemas', []))} cinemas")
